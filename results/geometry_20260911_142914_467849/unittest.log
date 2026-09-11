@@ -1,0 +1,44 @@
+test_angle_wrap_and_two_input_styles (__main__.GeometryTests.test_angle_wrap_and_two_input_styles) ... ERROR
+test_config_validation (__main__.GeometryTests.test_config_validation) ... ok
+test_consistent_random_observations (__main__.GeometryTests.test_consistent_random_observations) ... ok
+test_constant_constraints (__main__.GeometryTests.test_constant_constraints) ... ok
+test_contradictory_parallel_constraints (__main__.GeometryTests.test_contradictory_parallel_constraints) ... ok
+test_document_three_observations (__main__.GeometryTests.test_document_three_observations) ... ok
+test_document_two_observations (__main__.GeometryTests.test_document_two_observations) ... ok
+test_duplicate_and_permutation (__main__.GeometryTests.test_duplicate_and_permutation) ... ok
+test_empty_observation_intersection (__main__.GeometryTests.test_empty_observation_intersection) ... ok
+test_forward_not_backward (__main__.GeometryTests.test_forward_not_backward) ... ok
+test_invalid_inputs (__main__.GeometryTests.test_invalid_inputs) ... ok
+test_lp_numerical_failure_not_unbounded (__main__.GeometryTests.test_lp_numerical_failure_not_unbounded) ... ok
+test_lp_uses_free_variables (__main__.GeometryTests.test_lp_uses_free_variables) ... ok
+test_near_parallel_not_discarded (__main__.GeometryTests.test_near_parallel_not_discarded) ... ok
+test_negative_coordinate_square (__main__.GeometryTests.test_negative_coordinate_square) ... ok
+test_point_and_segment_direct_constraints (__main__.GeometryTests.test_point_and_segment_direct_constraints) ... ok
+test_single_observation_unbounded (__main__.GeometryTests.test_single_observation_unbounded) ... ok
+test_strip_unbounded_with_no_vertices (__main__.GeometryTests.test_strip_unbounded_with_no_vertices) ... ok
+test_thin_polygon_not_merged_into_segment (__main__.GeometryTests.test_thin_polygon_not_merged_into_segment) ... ok
+test_translation_and_rotation (__main__.GeometryTests.test_translation_and_rotation) ... ok
+
+======================================================================
+ERROR: test_angle_wrap_and_two_input_styles (__main__.GeometryTests.test_angle_wrap_and_two_input_styles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\rf_hunter\test_geometry.py", line 120, in test_angle_wrap_and_two_input_styles
+    a = self.solve([(-800, 0, -1), (0, -800, 89)])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\rf_hunter\test_geometry.py", line 40, in solve
+    return g.solve_q1(observations, config=self.cfg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\rf_hunter\test_geometry.py", line 262, in measured
+    timer.__enter__()
+  File "E:\rf_hunter\geometry_test_timing.py", line 91, in __enter__
+    measure = _instrument_measure(self.mark)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\rf_hunter\geometry_test_timing.py", line 53, in _instrument_measure
+    raise RuntimeError("_measure结构已变化，请更新geometry_test_timing.py的分段边界")
+RuntimeError: _measure结构已变化，请更新geometry_test_timing.py的分段边界
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.982s
+
+FAILED (errors=1)

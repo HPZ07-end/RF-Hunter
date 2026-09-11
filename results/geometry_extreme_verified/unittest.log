@@ -1,0 +1,63 @@
+circle_boundary_inside repeat=1 PASS status=POLYGON elapsed_ms=6.255099999179947 diameter=2.0
+
+circle_boundary_on repeat=1 PASS status=POLYGON elapsed_ms=5.66880000042147 diameter=2.0
+
+circle_boundary_outside_within_tolerance repeat=1 PASS status=POLYGON elapsed_ms=5.4572000008192845 diameter=2.0
+
+circle_boundary_outside_tolerance repeat=1 PASS status=POLYGON elapsed_ms=5.25279999965278 diameter=2.0
+
+thin_rectangle_0.001 repeat=1 PASS status=POLYGON elapsed_ms=5.802399999083718 diameter=1.000000499999875
+
+thin_rectangle_1e-07 repeat=1 PASS status=POLYGON elapsed_ms=5.4865999991307035 diameter=1.000000000000005
+
+thin_rectangle_1e-10 repeat=1 PASS status=POLYGON elapsed_ms=5.295899998600362 diameter=1.0
+
+thin_rectangle_1e-12 repeat=1 PASS status=POLYGON elapsed_ms=5.823400000736001 diameter=1.0
+
+exact_segment repeat=1 PASS status=SEGMENT elapsed_ms=5.490900000950205 diameter=2.0
+
+exact_point repeat=1 PASS status=POINT elapsed_ms=5.258400000457186 diameter=0.0
+
+almost_infeasible_0.001 repeat=1 PASS status=EMPTY elapsed_ms=3.274500000770786 diameter=None
+
+almost_infeasible_1e-08 repeat=1 PASS status=EMPTY elapsed_ms=3.264000000854139 diameter=None
+
+almost_infeasible_1e-12 repeat=1 WARN status=NUMERICAL_ISSUE elapsed_ms=4.817400000320049 diameter=None
+未给出几何答案：病态数据触发数值异常，请查看diagnostics
+parallel_strip repeat=1 PASS status=UNBOUNDED elapsed_ms=3.999800001110998 diameter=inf
+
+near_parallel_1e-06 repeat=1 PASS status=POLYGON elapsed_ms=6.3706000000820495 diameter=1000000.0000005
+
+near_parallel_1e-10 repeat=1 WARN status=NUMERICAL_ISSUE elapsed_ms=4.670000000260188 diameter=None
+未给出几何答案：病态数据触发数值异常，请查看diagnostics
+near_parallel_1e-12 repeat=1 WARN status=NUMERICAL_ISSUE elapsed_ms=4.448499999853084 diameter=None
+未给出几何答案：病态数据触发数值异常，请查看diagnostics
+translation_0 repeat=1 PASS status=POLYGON elapsed_ms=5.609100000583567 diameter=39.50834065898743
+
+translation_1e+06 repeat=1 PASS status=POLYGON elapsed_ms=5.947800000285497 diameter=39.50834065888242
+
+translation_1e+09 repeat=1 PASS status=POLYGON elapsed_ms=5.98100000024715 diameter=39.50834073321563
+
+angle_wrap repeat=1 PASS status=POLYGON elapsed_ms=6.102699999246397 diameter=39.50834065898743
+
+configured_error_1e-08 repeat=1 PASS status=POLYGON elapsed_ms=6.04870000097435 diameter=3.949228231068632e-07
+
+configured_error_89.999999 repeat=1 PASS status=UNBOUNDED elapsed_ms=4.398000000946922 diameter=inf
+
+bearing_error_exact_limit repeat=1 PASS status=POLYGON elapsed_ms=7.374700000582379 diameter=40.937924483340744
+
+distinct_points_10 repeat=1 PASS status=POLYGON elapsed_ms=23.559499999464606 diameter=25.30502823470042
+
+distinct_points_30 repeat=1 PASS status=POLYGON elapsed_ms=206.10020000094664 diameter=14.772540287120963
+
+distinct_points_100 repeat=1 PASS status=POLYGON elapsed_ms=4349.06570000021 diameter=6.600144525468327
+
+distinct_points_200 repeat=1 PASS status=POLYGON elapsed_ms=30032.800200000565 diameter=4.9939228642573115
+
+distinct_points_500 repeat=1 TIMEOUT status=TIMEOUT elapsed_ms=None diameter=None
+含进程启动/校核的单案例墙钟时间超过60.0秒；求解耗时未知
+repeated_observations_1000 repeat=1 PASS status=POLYGON elapsed_ms=10.980400000335067 diameter=39.50834065898743
+
+repeated_observations_10000 repeat=1 PASS status=POLYGON elapsed_ms=74.22770000084711 diameter=39.50834065898743
+
+{"PASS": 27, "WARN": 3, "FAIL": 0, "TIMEOUT": 1, "ERROR": 0}
