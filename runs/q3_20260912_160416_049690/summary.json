@@ -1,0 +1,6674 @@
+{
+  "outcome": "success",
+  "reason": "全部频道终态，或确认清除16源；主动退出已确认",
+  "all_targets_resolved": true,
+  "exit_confirmed": true,
+  "discovered_count": 15,
+  "cleared_count": 15,
+  "total_source_count": null,
+  "clearance_ratio": null,
+  "truth_note": "总数/清除比例须在演练结束后由界面真值补算，在线不读取",
+  "virtual_time_s": 4230.557879,
+  "accounted_virtual_time_s": 4230.557879285308,
+  "average_clear_time_s": 282.0371919333333,
+  "program_elapsed_s": 23.014999999999418,
+  "program_time_note": "本地enter响应后至流程结束的近似耗时；正式计时以模拟器为准",
+  "total_distance_m": 17572.789396426542,
+  "counts": {
+    "measure": 109,
+    "switch": 96,
+    "optical": 15,
+    "clear_success": 15,
+    "clear_failure": 0,
+    "insertion": 0,
+    "unknown_measure": 70,
+    "opportunistic_measure": 27,
+    "opportunistic_arrivals_considered": 34,
+    "opportunistic_arrivals_used": 18,
+    "active_measure": 12,
+    "recovery_measure": 0,
+    "candidate_repeat_rejected": 62,
+    "candidate_angle_rejected": 431,
+    "tsp_replans": 27,
+    "planning_cache_hit": 152,
+    "planning_cache_miss": 31,
+    "dynamic_replan_extra_granted": 0,
+    "dynamic_replan_budget_exhausted": 0
+  },
+  "phase_virtual_s": {
+    "search": 1905.0,
+    "localization": 2325.557879
+  },
+  "next_coverage_index": 7,
+  "coverage_points": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      1200.0,
+      0.0
+    ],
+    [
+      600.0000000000001,
+      1039.2304845413264
+    ],
+    [
+      -599.9999999999998,
+      1039.2304845413264
+    ],
+    [
+      -1200.0,
+      1.4695761589768238e-13
+    ],
+    [
+      -600.0000000000006,
+      -1039.2304845413262
+    ],
+    [
+      600.0000000000001,
+      -1039.2304845413264
+    ]
+  ],
+  "scan_done": [
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "coverage_proof_endpoint_distances_m": [
+    601.2811579596914,
+    968.9015717043839
+  ],
+  "trajectory": [
+    {
+      "to": [
+        0.0,
+        0.0
+      ],
+      "phase": "enter",
+      "virtual_time_s": 0.0
+    },
+    {
+      "from": [
+        0.0,
+        0.0
+      ],
+      "to": [
+        0.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 1,
+      "virtual_time_s": 5
+    },
+    {
+      "from": [
+        0.0,
+        0.0
+      ],
+      "to": [
+        0.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 2,
+      "virtual_time_s": 11
+    },
+    {
+      "from": [
+        0.0,
+        0.0
+      ],
+      "to": [
+        0.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 3,
+      "virtual_time_s": 17
+    },
+    {
+      "from": [
+        0.0,
+        0.0
+      ],
+      "to": [
+        0.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 4,
+      "virtual_time_s": 23
+    },
+    {
+      "from": [
+        0.0,
+        0.0
+      ],
+      "to": [
+        0.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 5,
+      "virtual_time_s": 29
+    },
+    {
+      "from": [
+        0.0,
+        0.0
+      ],
+      "to": [
+        0.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 6,
+      "virtual_time_s": 35
+    },
+    {
+      "from": [
+        0.0,
+        0.0
+      ],
+      "to": [
+        0.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 7,
+      "virtual_time_s": 41
+    },
+    {
+      "from": [
+        0.0,
+        0.0
+      ],
+      "to": [
+        0.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 8,
+      "virtual_time_s": 47
+    },
+    {
+      "from": [
+        0.0,
+        0.0
+      ],
+      "to": [
+        0.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 9,
+      "virtual_time_s": 53
+    },
+    {
+      "from": [
+        0.0,
+        0.0
+      ],
+      "to": [
+        0.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 10,
+      "virtual_time_s": 59
+    },
+    {
+      "from": [
+        0.0,
+        0.0
+      ],
+      "to": [
+        0.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 11,
+      "virtual_time_s": 65
+    },
+    {
+      "from": [
+        0.0,
+        0.0
+      ],
+      "to": [
+        0.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 12,
+      "virtual_time_s": 71
+    },
+    {
+      "from": [
+        0.0,
+        0.0
+      ],
+      "to": [
+        0.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 13,
+      "virtual_time_s": 77
+    },
+    {
+      "from": [
+        0.0,
+        0.0
+      ],
+      "to": [
+        0.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 14,
+      "virtual_time_s": 83
+    },
+    {
+      "from": [
+        0.0,
+        0.0
+      ],
+      "to": [
+        0.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 15,
+      "virtual_time_s": 89
+    },
+    {
+      "from": [
+        0.0,
+        0.0
+      ],
+      "to": [
+        0.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 16,
+      "virtual_time_s": 95
+    },
+    {
+      "from": [
+        0.0,
+        0.0
+      ],
+      "to": [
+        0.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 17,
+      "virtual_time_s": 101
+    },
+    {
+      "from": [
+        0.0,
+        0.0
+      ],
+      "to": [
+        0.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 18,
+      "virtual_time_s": 107
+    },
+    {
+      "from": [
+        0.0,
+        0.0
+      ],
+      "to": [
+        0.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 19,
+      "virtual_time_s": 113
+    },
+    {
+      "from": [
+        0.0,
+        0.0
+      ],
+      "to": [
+        0.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 20,
+      "virtual_time_s": 119
+    },
+    {
+      "from": [
+        0.0,
+        0.0
+      ],
+      "to": [
+        1200.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 20,
+      "virtual_time_s": 364
+    },
+    {
+      "from": [
+        1200.0,
+        0.0
+      ],
+      "to": [
+        1200.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 1,
+      "virtual_time_s": 370
+    },
+    {
+      "from": [
+        1200.0,
+        0.0
+      ],
+      "to": [
+        1200.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 2,
+      "virtual_time_s": 376
+    },
+    {
+      "from": [
+        1200.0,
+        0.0
+      ],
+      "to": [
+        1200.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 3,
+      "virtual_time_s": 382
+    },
+    {
+      "from": [
+        1200.0,
+        0.0
+      ],
+      "to": [
+        1200.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 4,
+      "virtual_time_s": 388
+    },
+    {
+      "from": [
+        1200.0,
+        0.0
+      ],
+      "to": [
+        1200.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 5,
+      "virtual_time_s": 394
+    },
+    {
+      "from": [
+        1200.0,
+        0.0
+      ],
+      "to": [
+        1200.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 6,
+      "virtual_time_s": 400
+    },
+    {
+      "from": [
+        1200.0,
+        0.0
+      ],
+      "to": [
+        1200.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 7,
+      "virtual_time_s": 406
+    },
+    {
+      "from": [
+        1200.0,
+        0.0
+      ],
+      "to": [
+        1200.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 9,
+      "virtual_time_s": 412
+    },
+    {
+      "from": [
+        1200.0,
+        0.0
+      ],
+      "to": [
+        1200.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 10,
+      "virtual_time_s": 418
+    },
+    {
+      "from": [
+        1200.0,
+        0.0
+      ],
+      "to": [
+        1200.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 12,
+      "virtual_time_s": 424
+    },
+    {
+      "from": [
+        1200.0,
+        0.0
+      ],
+      "to": [
+        1200.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 13,
+      "virtual_time_s": 430
+    },
+    {
+      "from": [
+        1200.0,
+        0.0
+      ],
+      "to": [
+        1200.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 17,
+      "virtual_time_s": 436
+    },
+    {
+      "from": [
+        1200.0,
+        0.0
+      ],
+      "to": [
+        1200.0,
+        0.0
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 18,
+      "virtual_time_s": 442
+    },
+    {
+      "from": [
+        1200.0,
+        0.0
+      ],
+      "to": [
+        600.0000000000001,
+        1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 18,
+      "virtual_time_s": 687
+    },
+    {
+      "from": [
+        600.0000000000001,
+        1039.2304845413264
+      ],
+      "to": [
+        600.0000000000001,
+        1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 1,
+      "virtual_time_s": 693
+    },
+    {
+      "from": [
+        600.0000000000001,
+        1039.2304845413264
+      ],
+      "to": [
+        600.0000000000001,
+        1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 2,
+      "virtual_time_s": 699
+    },
+    {
+      "from": [
+        600.0000000000001,
+        1039.2304845413264
+      ],
+      "to": [
+        600.0000000000001,
+        1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 4,
+      "virtual_time_s": 705
+    },
+    {
+      "from": [
+        600.0000000000001,
+        1039.2304845413264
+      ],
+      "to": [
+        600.0000000000001,
+        1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 5,
+      "virtual_time_s": 711
+    },
+    {
+      "from": [
+        600.0000000000001,
+        1039.2304845413264
+      ],
+      "to": [
+        600.0000000000001,
+        1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 6,
+      "virtual_time_s": 717
+    },
+    {
+      "from": [
+        600.0000000000001,
+        1039.2304845413264
+      ],
+      "to": [
+        600.0000000000001,
+        1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 7,
+      "virtual_time_s": 723
+    },
+    {
+      "from": [
+        600.0000000000001,
+        1039.2304845413264
+      ],
+      "to": [
+        600.0000000000001,
+        1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 12,
+      "virtual_time_s": 729
+    },
+    {
+      "from": [
+        600.0000000000001,
+        1039.2304845413264
+      ],
+      "to": [
+        600.0000000000001,
+        1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 13,
+      "virtual_time_s": 735
+    },
+    {
+      "from": [
+        600.0000000000001,
+        1039.2304845413264
+      ],
+      "to": [
+        600.0000000000001,
+        1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 17,
+      "virtual_time_s": 741
+    },
+    {
+      "from": [
+        600.0000000000001,
+        1039.2304845413264
+      ],
+      "to": [
+        600.0000000000001,
+        1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 10,
+      "virtual_time_s": 747
+    },
+    {
+      "from": [
+        600.0000000000001,
+        1039.2304845413264
+      ],
+      "to": [
+        600.0000000000001,
+        1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 8,
+      "virtual_time_s": 753
+    },
+    {
+      "from": [
+        600.0000000000001,
+        1039.2304845413264
+      ],
+      "to": [
+        -599.9999999999998,
+        1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 1,
+      "virtual_time_s": 999
+    },
+    {
+      "from": [
+        -599.9999999999998,
+        1039.2304845413264
+      ],
+      "to": [
+        -599.9999999999998,
+        1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 2,
+      "virtual_time_s": 1005
+    },
+    {
+      "from": [
+        -599.9999999999998,
+        1039.2304845413264
+      ],
+      "to": [
+        -599.9999999999998,
+        1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 4,
+      "virtual_time_s": 1011
+    },
+    {
+      "from": [
+        -599.9999999999998,
+        1039.2304845413264
+      ],
+      "to": [
+        -599.9999999999998,
+        1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 6,
+      "virtual_time_s": 1017
+    },
+    {
+      "from": [
+        -599.9999999999998,
+        1039.2304845413264
+      ],
+      "to": [
+        -599.9999999999998,
+        1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 13,
+      "virtual_time_s": 1023
+    },
+    {
+      "from": [
+        -599.9999999999998,
+        1039.2304845413264
+      ],
+      "to": [
+        -599.9999999999998,
+        1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 17,
+      "virtual_time_s": 1029
+    },
+    {
+      "from": [
+        -599.9999999999998,
+        1039.2304845413264
+      ],
+      "to": [
+        -599.9999999999998,
+        1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 18,
+      "virtual_time_s": 1035
+    },
+    {
+      "from": [
+        -599.9999999999998,
+        1039.2304845413264
+      ],
+      "to": [
+        -599.9999999999998,
+        1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 11,
+      "virtual_time_s": 1041
+    },
+    {
+      "from": [
+        -599.9999999999998,
+        1039.2304845413264
+      ],
+      "to": [
+        -599.9999999999998,
+        1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 12,
+      "virtual_time_s": 1047
+    },
+    {
+      "from": [
+        -599.9999999999998,
+        1039.2304845413264
+      ],
+      "to": [
+        -1200.0,
+        1.4695761589768238e-13
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 1,
+      "virtual_time_s": 1293
+    },
+    {
+      "from": [
+        -1200.0,
+        1.4695761589768238e-13
+      ],
+      "to": [
+        -1200.0,
+        1.4695761589768238e-13
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 2,
+      "virtual_time_s": 1299
+    },
+    {
+      "from": [
+        -1200.0,
+        1.4695761589768238e-13
+      ],
+      "to": [
+        -1200.0,
+        1.4695761589768238e-13
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 4,
+      "virtual_time_s": 1305
+    },
+    {
+      "from": [
+        -1200.0,
+        1.4695761589768238e-13
+      ],
+      "to": [
+        -1200.0,
+        1.4695761589768238e-13
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 6,
+      "virtual_time_s": 1311
+    },
+    {
+      "from": [
+        -1200.0,
+        1.4695761589768238e-13
+      ],
+      "to": [
+        -1200.0,
+        1.4695761589768238e-13
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 13,
+      "virtual_time_s": 1317
+    },
+    {
+      "from": [
+        -1200.0,
+        1.4695761589768238e-13
+      ],
+      "to": [
+        -1200.0,
+        1.4695761589768238e-13
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 17,
+      "virtual_time_s": 1323
+    },
+    {
+      "from": [
+        -1200.0,
+        1.4695761589768238e-13
+      ],
+      "to": [
+        -1200.0,
+        1.4695761589768238e-13
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 18,
+      "virtual_time_s": 1329
+    },
+    {
+      "from": [
+        -1200.0,
+        1.4695761589768238e-13
+      ],
+      "to": [
+        -1200.0,
+        1.4695761589768238e-13
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 19,
+      "virtual_time_s": 1335
+    },
+    {
+      "from": [
+        -1200.0,
+        1.4695761589768238e-13
+      ],
+      "to": [
+        -600.0000000000006,
+        -1039.2304845413262
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 1,
+      "virtual_time_s": 1581
+    },
+    {
+      "from": [
+        -600.0000000000006,
+        -1039.2304845413262
+      ],
+      "to": [
+        -600.0000000000006,
+        -1039.2304845413262
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 2,
+      "virtual_time_s": 1587
+    },
+    {
+      "from": [
+        -600.0000000000006,
+        -1039.2304845413262
+      ],
+      "to": [
+        -600.0000000000006,
+        -1039.2304845413262
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 4,
+      "virtual_time_s": 1593
+    },
+    {
+      "from": [
+        -600.0000000000006,
+        -1039.2304845413262
+      ],
+      "to": [
+        -600.0000000000006,
+        -1039.2304845413262
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 6,
+      "virtual_time_s": 1599
+    },
+    {
+      "from": [
+        -600.0000000000006,
+        -1039.2304845413262
+      ],
+      "to": [
+        -600.0000000000006,
+        -1039.2304845413262
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 13,
+      "virtual_time_s": 1605
+    },
+    {
+      "from": [
+        -600.0000000000006,
+        -1039.2304845413262
+      ],
+      "to": [
+        -600.0000000000006,
+        -1039.2304845413262
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 17,
+      "virtual_time_s": 1611
+    },
+    {
+      "from": [
+        -600.0000000000006,
+        -1039.2304845413262
+      ],
+      "to": [
+        -600.0000000000006,
+        -1039.2304845413262
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 18,
+      "virtual_time_s": 1617
+    },
+    {
+      "from": [
+        -600.0000000000006,
+        -1039.2304845413262
+      ],
+      "to": [
+        -600.0000000000006,
+        -1039.2304845413262
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 15,
+      "virtual_time_s": 1623
+    },
+    {
+      "from": [
+        -600.0000000000006,
+        -1039.2304845413262
+      ],
+      "to": [
+        600.0000000000001,
+        -1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 1,
+      "virtual_time_s": 1869
+    },
+    {
+      "from": [
+        600.0000000000001,
+        -1039.2304845413264
+      ],
+      "to": [
+        600.0000000000001,
+        -1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 4,
+      "virtual_time_s": 1875
+    },
+    {
+      "from": [
+        600.0000000000001,
+        -1039.2304845413264
+      ],
+      "to": [
+        600.0000000000001,
+        -1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 6,
+      "virtual_time_s": 1881
+    },
+    {
+      "from": [
+        600.0000000000001,
+        -1039.2304845413264
+      ],
+      "to": [
+        600.0000000000001,
+        -1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 13,
+      "virtual_time_s": 1887
+    },
+    {
+      "from": [
+        600.0000000000001,
+        -1039.2304845413264
+      ],
+      "to": [
+        600.0000000000001,
+        -1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 18,
+      "virtual_time_s": 1893
+    },
+    {
+      "from": [
+        600.0000000000001,
+        -1039.2304845413264
+      ],
+      "to": [
+        600.0000000000001,
+        -1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 16,
+      "virtual_time_s": 1899
+    },
+    {
+      "from": [
+        600.0000000000001,
+        -1039.2304845413264
+      ],
+      "to": [
+        600.0000000000001,
+        -1039.2304845413264
+      ],
+      "phase": "search",
+      "method": "measure",
+      "channel": 14,
+      "virtual_time_s": 1905
+    },
+    {
+      "from": [
+        600.0000000000001,
+        -1039.2304845413264
+      ],
+      "to": [
+        390.76252684868587,
+        -1204.515819108174
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 17,
+      "virtual_time_s": 1964.329002
+    },
+    {
+      "from": [
+        390.76252684868587,
+        -1204.515819108174
+      ],
+      "to": [
+        390.76252684868587,
+        -1204.515819108174
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 2,
+      "virtual_time_s": 1970.329002
+    },
+    {
+      "from": [
+        390.76252684868587,
+        -1204.515819108174
+      ],
+      "to": [
+        390.76252684868587,
+        -1204.515819108174
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 19,
+      "virtual_time_s": 1976.329002
+    },
+    {
+      "from": [
+        390.76252684868587,
+        -1204.515819108174
+      ],
+      "to": [
+        50.289616659071704,
+        -1660.296710007168
+      ],
+      "phase": "localization",
+      "method": "clear",
+      "channel": 2,
+      "virtual_time_s": 2095.110903
+    },
+    {
+      "from": [
+        50.289616659071704,
+        -1660.296710007168
+      ],
+      "to": [
+        50.289616659071704,
+        -1660.296710007168
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 17,
+      "virtual_time_s": 2101.110903
+    },
+    {
+      "from": [
+        50.289616659071704,
+        -1660.296710007168
+      ],
+      "to": [
+        -64.5290301535976,
+        -1593.409021661404
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 17,
+      "virtual_time_s": 2132.687046
+    },
+    {
+      "from": [
+        -64.5290301535976,
+        -1593.409021661404
+      ],
+      "to": [
+        -291.11955470569154,
+        -1258.2800881767016
+      ],
+      "phase": "localization",
+      "method": "clear",
+      "channel": 17,
+      "virtual_time_s": 2218.595554
+    },
+    {
+      "from": [
+        -291.11955470569154,
+        -1258.2800881767016
+      ],
+      "to": [
+        -417.318407275759,
+        -860.2989578177846
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 16,
+      "virtual_time_s": 2308.097681
+    },
+    {
+      "from": [
+        -417.318407275759,
+        -860.2989578177846
+      ],
+      "to": [
+        -417.318407275759,
+        -860.2989578177846
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 15,
+      "virtual_time_s": 2314.097681
+    },
+    {
+      "from": [
+        -417.318407275759,
+        -860.2989578177846
+      ],
+      "to": [
+        -490.5489319247098,
+        -437.0701995615264
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 15,
+      "virtual_time_s": 2405.001183
+    },
+    {
+      "from": [
+        -490.5489319247098,
+        -437.0701995615264
+      ],
+      "to": [
+        -196.61154987630317,
+        -527.0859433671105
+      ],
+      "phase": "localization",
+      "method": "clear",
+      "channel": 16,
+      "virtual_time_s": 2471.483544
+    },
+    {
+      "from": [
+        -196.61154987630317,
+        -527.0859433671105
+      ],
+      "to": [
+        -266.5664025503662,
+        -422.38738455810784
+      ],
+      "phase": "localization",
+      "method": "clear",
+      "channel": 19,
+      "virtual_time_s": 2501.667245
+    },
+    {
+      "from": [
+        -266.5664025503662,
+        -422.38738455810784
+      ],
+      "to": [
+        -704.7101125017939,
+        -102.246952330683
+      ],
+      "phase": "localization",
+      "method": "clear",
+      "channel": 15,
+      "virtual_time_s": 2615.195547
+    },
+    {
+      "from": [
+        -704.7101125017939,
+        -102.246952330683
+      ],
+      "to": [
+        -388.337275887561,
+        965.442023172079
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 12,
+      "virtual_time_s": 2843.910748
+    },
+    {
+      "from": [
+        -388.337275887561,
+        965.442023172079
+      ],
+      "to": [
+        -388.337275887561,
+        965.442023172079
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 7,
+      "virtual_time_s": 2849.910748
+    },
+    {
+      "from": [
+        -388.337275887561,
+        965.442023172079
+      ],
+      "to": [
+        -388.337275887561,
+        965.442023172079
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 5,
+      "virtual_time_s": 2855.910748
+    },
+    {
+      "from": [
+        -388.337275887561,
+        965.442023172079
+      ],
+      "to": [
+        -533.103170264036,
+        1394.3104048632042
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 7,
+      "virtual_time_s": 2952.439252
+    },
+    {
+      "from": [
+        -533.103170264036,
+        1394.3104048632042
+      ],
+      "to": [
+        -533.103170264036,
+        1394.3104048632042
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 5,
+      "virtual_time_s": 2958.439252
+    },
+    {
+      "from": [
+        -533.103170264036,
+        1394.3104048632042
+      ],
+      "to": [
+        -533.103170264036,
+        1394.3104048632042
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 11,
+      "virtual_time_s": 2964.439252
+    },
+    {
+      "from": [
+        -533.103170264036,
+        1394.3104048632042
+      ],
+      "to": [
+        -251.85396786367966,
+        1677.8490551314917
+      ],
+      "phase": "localization",
+      "method": "clear",
+      "channel": 7,
+      "virtual_time_s": 3049.312972
+    },
+    {
+      "from": [
+        -251.85396786367966,
+        1677.8490551314917
+      ],
+      "to": [
+        -251.85396786367966,
+        1677.8490551314917
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 11,
+      "virtual_time_s": 3054.312972
+    },
+    {
+      "from": [
+        -251.85396786367966,
+        1677.8490551314917
+      ],
+      "to": [
+        -160.08272838937114,
+        1520.4879778789384
+      ],
+      "phase": "localization",
+      "method": "clear",
+      "channel": 12,
+      "virtual_time_s": 3095.746182
+    },
+    {
+      "from": [
+        -160.08272838937114,
+        1520.4879778789384
+      ],
+      "to": [
+        -160.08272838937114,
+        1520.4879778789384
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 11,
+      "virtual_time_s": 3100.746182
+    },
+    {
+      "from": [
+        -160.08272838937114,
+        1520.4879778789384
+      ],
+      "to": [
+        45.047810388794375,
+        1708.9737775070712
+      ],
+      "phase": "localization",
+      "method": "clear",
+      "channel": 5,
+      "virtual_time_s": 3161.461686
+    },
+    {
+      "from": [
+        45.047810388794375,
+        1708.9737775070712
+      ],
+      "to": [
+        45.047810388794375,
+        1708.9737775070712
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 11,
+      "virtual_time_s": 3166.461686
+    },
+    {
+      "from": [
+        45.047810388794375,
+        1708.9737775070712
+      ],
+      "to": [
+        236.6794005940578,
+        1672.8029099305895
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 11,
+      "virtual_time_s": 3210.464762
+    },
+    {
+      "from": [
+        236.6794005940578,
+        1672.8029099305895
+      ],
+      "to": [
+        474.6795054015922,
+        1116.5668873966802
+      ],
+      "phase": "localization",
+      "method": "clear",
+      "channel": 11,
+      "virtual_time_s": 3336.467665
+    },
+    {
+      "from": [
+        474.6795054015922,
+        1116.5668873966802
+      ],
+      "to": [
+        328.81373280214274,
+        943.4725512374981
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 20,
+      "virtual_time_s": 3387.739499
+    },
+    {
+      "from": [
+        328.81373280214274,
+        943.4725512374981
+      ],
+      "to": [
+        416.5092156316802,
+        751.3751028941838
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 20,
+      "virtual_time_s": 3434.9731
+    },
+    {
+      "from": [
+        416.5092156316802,
+        751.3751028941838
+      ],
+      "to": [
+        416.5092156316802,
+        751.3751028941838
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 10,
+      "virtual_time_s": 3440.9731
+    },
+    {
+      "from": [
+        416.5092156316802,
+        751.3751028941838
+      ],
+      "to": [
+        416.5092156316802,
+        751.3751028941838
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 14,
+      "virtual_time_s": 3446.9731
+    },
+    {
+      "from": [
+        416.5092156316802,
+        751.3751028941838
+      ],
+      "to": [
+        785.1923598076289,
+        901.9497923988478
+      ],
+      "phase": "localization",
+      "method": "clear",
+      "channel": 20,
+      "virtual_time_s": 3531.62233
+    },
+    {
+      "from": [
+        785.1923598076289,
+        901.9497923988478
+      ],
+      "to": [
+        785.1923598076289,
+        901.9497923988478
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 8,
+      "virtual_time_s": 3537.62233
+    },
+    {
+      "from": [
+        785.1923598076289,
+        901.9497923988478
+      ],
+      "to": [
+        1349.3267986950264,
+        846.428639389781
+      ],
+      "phase": "localization",
+      "method": "clear",
+      "channel": 10,
+      "virtual_time_s": 3655.994331
+    },
+    {
+      "from": [
+        1349.3267986950264,
+        846.428639389781
+      ],
+      "to": [
+        1349.3267986950264,
+        846.428639389781
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 9,
+      "virtual_time_s": 3661.994331
+    },
+    {
+      "from": [
+        1349.3267986950264,
+        846.428639389781
+      ],
+      "to": [
+        1349.3267986950264,
+        846.428639389781
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 8,
+      "virtual_time_s": 3667.994331
+    },
+    {
+      "from": [
+        1349.3267986950264,
+        846.428639389781
+      ],
+      "to": [
+        1543.9553087056227,
+        432.0549145469348
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 8,
+      "virtual_time_s": 3764.555423
+    },
+    {
+      "from": [
+        1543.9553087056227,
+        432.0549145469348
+      ],
+      "to": [
+        1543.9553087056227,
+        432.0549145469348
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 3,
+      "virtual_time_s": 3770.555423
+    },
+    {
+      "from": [
+        1543.9553087056227,
+        432.0549145469348
+      ],
+      "to": [
+        1543.9553087056227,
+        432.0549145469348
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 9,
+      "virtual_time_s": 3776.555423
+    },
+    {
+      "from": [
+        1543.9553087056227,
+        432.0549145469348
+      ],
+      "to": [
+        1718.8970721407195,
+        103.71204955770361
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 9,
+      "virtual_time_s": 3855.963395
+    },
+    {
+      "from": [
+        1718.8970721407195,
+        103.71204955770361
+      ],
+      "to": [
+        1718.8970721407195,
+        103.71204955770361
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 3,
+      "virtual_time_s": 3861.963395
+    },
+    {
+      "from": [
+        1718.8970721407195,
+        103.71204955770361
+      ],
+      "to": [
+        1785.8807865655488,
+        -28.780215717216265
+      ],
+      "phase": "localization",
+      "method": "measure",
+      "channel": 3,
+      "virtual_time_s": 3896.655831
+    },
+    {
+      "from": [
+        1785.8807865655488,
+        -28.780215717216265
+      ],
+      "to": [
+        1715.0025689629651,
+        -294.38566955413955
+      ],
+      "phase": "localization",
+      "method": "clear",
+      "channel": 9,
+      "virtual_time_s": 3956.63582
+    },
+    {
+      "from": [
+        1715.0025689629651,
+        -294.38566955413955
+      ],
+      "to": [
+        1634.3053990926314,
+        -399.3515298554516
+      ],
+      "phase": "localization",
+      "method": "clear",
+      "channel": 3,
+      "virtual_time_s": 3988.115899
+    },
+    {
+      "from": [
+        1634.3053990926314,
+        -399.3515298554516
+      ],
+      "to": [
+        1267.366923210855,
+        141.07350298122722
+      ],
+      "phase": "localization",
+      "method": "clear",
+      "channel": 8,
+      "virtual_time_s": 4123.760924
+    },
+    {
+      "from": [
+        1267.366923210855,
+        141.07350298122722
+      ],
+      "to": [
+        797.3742932798891,
+        -54.30415607365261
+      ],
+      "phase": "localization",
+      "method": "clear",
+      "channel": 14,
+      "virtual_time_s": 4230.557879
+    }
+  ],
+  "channels": {
+    "1": {
+      "channel_id": 1,
+      "status": "ABSENT",
+      "bearing_observations": [],
+      "no_signal_observations": [
+        {
+          "position": [
+            0.0,
+            0.0
+          ],
+          "virtual_time_s": 5,
+          "real_timestamp_ms": 1789200252750,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            1200.0,
+            0.0
+          ],
+          "virtual_time_s": 370,
+          "real_timestamp_ms": 1789200252872,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            600.0000000000001,
+            1039.2304845413264
+          ],
+          "virtual_time_s": 693,
+          "real_timestamp_ms": 1789200252985,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            -599.9999999999998,
+            1039.2304845413264
+          ],
+          "virtual_time_s": 999,
+          "real_timestamp_ms": 1789200253194,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            -1200.0,
+            1.4695761589768238e-13
+          ],
+          "virtual_time_s": 1293,
+          "real_timestamp_ms": 1789200253331,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            -600.0000000000006,
+            -1039.2304845413262
+          ],
+          "virtual_time_s": 1581,
+          "real_timestamp_ms": 1789200253374,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            600.0000000000001,
+            -1039.2304845413264
+          ],
+          "virtual_time_s": 1869,
+          "real_timestamp_ms": 1789200253520,
+          "measurement_kind": "unknown"
+        }
+      ],
+      "near_signal_observations": [],
+      "outer_polygon": [],
+      "region_status": null,
+      "diameter": null,
+      "clearance_center": null,
+      "clearance_radius": null,
+      "certificate_source": null,
+      "absent_reason": "seven_coverage_points_all_no_signal",
+      "last_action": "measure",
+      "failure_count": 0,
+      "clear_failure_count": 0,
+      "failed_clear_attempts": [],
+      "invalidated_localization_rounds": [],
+      "recovery_reset_pending": false,
+      "no_progress_count": 7,
+      "replan_level": 0,
+      "progress_history": [
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 5,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 370,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 693,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 999,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 1293,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 1581,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 1869,
+          "outer_polygon": [],
+          "clearance_center": null
+        }
+      ],
+      "revision": 7,
+      "q2_attempted": false,
+      "q2_proposal": null
+    },
+    "2": {
+      "channel_id": 2,
+      "status": "CLEARED",
+      "bearing_observations": [
+        {
+          "position": [
+            -600.0000000000006,
+            -1039.2304845413262
+          ],
+          "virtual_time_s": 1587,
+          "real_timestamp_ms": 1789200253376,
+          "measurement_kind": "unknown",
+          "bearing_deg": 316.33
+        },
+        {
+          "position": [
+            390.76252684868587,
+            -1204.515819108174
+          ],
+          "virtual_time_s": 1970.329002,
+          "real_timestamp_ms": 1789200263733,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 233.21
+        }
+      ],
+      "no_signal_observations": [
+        {
+          "position": [
+            0.0,
+            0.0
+          ],
+          "virtual_time_s": 11,
+          "real_timestamp_ms": 1789200252751,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            1200.0,
+            0.0
+          ],
+          "virtual_time_s": 376,
+          "real_timestamp_ms": 1789200252889,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            600.0000000000001,
+            1039.2304845413264
+          ],
+          "virtual_time_s": 699,
+          "real_timestamp_ms": 1789200252986,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            -599.9999999999998,
+            1039.2304845413264
+          ],
+          "virtual_time_s": 1005,
+          "real_timestamp_ms": 1789200253197,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            -1200.0,
+            1.4695761589768238e-13
+          ],
+          "virtual_time_s": 1299,
+          "real_timestamp_ms": 1789200253333,
+          "measurement_kind": "unknown"
+        }
+      ],
+      "near_signal_observations": [],
+      "outer_polygon": [
+        [
+          33.40655814932307,
+          -1665.382426299929
+        ],
+        [
+          48.056378990338494,
+          -1679.864457860857
+        ],
+        [
+          66.78983252334714,
+          -1653.8803262901185
+        ],
+        [
+          52.522854327804914,
+          -1640.728962153479
+        ]
+      ],
+      "region_status": "POLYGON",
+      "diameter": 39.389547169298716,
+      "clearance_center": [
+        50.289616659071704,
+        -1660.296710007168
+      ],
+      "clearance_radius": 19.694773584649358,
+      "certificate_source": "all_history_box_mec",
+      "absent_reason": null,
+      "last_action": "clear",
+      "failure_count": 0,
+      "clear_failure_count": 0,
+      "failed_clear_attempts": [],
+      "invalidated_localization_rounds": [],
+      "recovery_reset_pending": false,
+      "no_progress_count": 0,
+      "replan_level": 0,
+      "progress_history": [
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 11,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 376,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 699,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 1005,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 1299,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": 1122.451796361038,
+          "radius_before": null,
+          "clearance_radius": 561.225898180519,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 1587,
+          "outer_polygon": [
+            [
+              169.58381535672427,
+              -1800.0
+            ],
+            [
+              225.30465859760199,
+              -1800.0
+            ],
+            [
+              -599.9999999999976,
+              -1039.2304845413291
+            ]
+          ],
+          "clearance_center": [
+            -187.3476707011978,
+            -1419.6152422706646
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 1122.451796361038,
+          "diameter": 39.389547169298716,
+          "radius_before": 561.225898180519,
+          "clearance_radius": 19.694773584649358,
+          "status": "READY",
+          "improved": true,
+          "virtual_time_s": 1970.329002,
+          "outer_polygon": [
+            [
+              33.40655814932307,
+              -1665.382426299929
+            ],
+            [
+              48.056378990338494,
+              -1679.864457860857
+            ],
+            [
+              66.78983252334714,
+              -1653.8803262901185
+            ],
+            [
+              52.522854327804914,
+              -1640.728962153479
+            ]
+          ],
+          "clearance_center": [
+            50.289616659071704,
+            -1660.296710007168
+          ]
+        }
+      ],
+      "revision": 7,
+      "q2_attempted": false,
+      "q2_proposal": {
+        "point": [
+          390.75438696868804,
+          -1202.241758523813
+        ],
+        "score": 60.60081392307419,
+        "method": "original_q2_seed",
+        "planner_status": "SUCCESS_APPROXIMATE",
+        "receive_margin_m": 1.1368683772161603e-13
+      }
+    },
+    "3": {
+      "channel_id": 3,
+      "status": "CLEARED",
+      "bearing_observations": [
+        {
+          "position": [
+            1200.0,
+            0.0
+          ],
+          "virtual_time_s": 382,
+          "real_timestamp_ms": 1789200252909,
+          "measurement_kind": "unknown",
+          "bearing_deg": 317.42
+        },
+        {
+          "position": [
+            1543.9553087056227,
+            432.0549145469348
+          ],
+          "virtual_time_s": 3770.555423,
+          "real_timestamp_ms": 1789200273686,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 276.59
+        },
+        {
+          "position": [
+            1718.8970721407195,
+            103.71204955770361
+          ],
+          "virtual_time_s": 3861.963395,
+          "real_timestamp_ms": 1789200275071,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 260.33
+        },
+        {
+          "position": [
+            1785.8807865655488,
+            -28.780215717216265
+          ],
+          "virtual_time_s": 3896.655831,
+          "real_timestamp_ms": 1789200275717,
+          "measurement_kind": "active",
+          "bearing_deg": 247.72
+        }
+      ],
+      "no_signal_observations": [
+        {
+          "position": [
+            0.0,
+            0.0
+          ],
+          "virtual_time_s": 17,
+          "real_timestamp_ms": 1789200252752,
+          "measurement_kind": "unknown"
+        }
+      ],
+      "near_signal_observations": [],
+      "outer_polygon": [
+        [
+          1625.5349960720457,
+          -401.4570096623815
+        ],
+        [
+          1625.9118058306863,
+          -405.30693158687376
+        ],
+        [
+          1635.6289799141766,
+          -414.5540056467101
+        ],
+        [
+          1642.5969368141045,
+          -396.66367073987186
+        ],
+        [
+          1643.1320345512186,
+          -393.15450375750726
+        ],
+        [
+          1632.981818271086,
+          -384.1490540641931
+        ]
+      ],
+      "region_status": "POLYGON",
+      "diameter": 30.51996961826558,
+      "clearance_center": [
+        1634.3053990926314,
+        -399.3515298554516
+      ],
+      "clearance_radius": 15.259984809132801,
+      "certificate_source": "all_history_box_mec",
+      "absent_reason": null,
+      "last_action": "clear",
+      "failure_count": 0,
+      "clear_failure_count": 0,
+      "failed_clear_attempts": [],
+      "invalidated_localization_rounds": [],
+      "recovery_reset_pending": false,
+      "no_progress_count": 0,
+      "replan_level": 0,
+      "progress_history": [
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 17,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": 828.2573353088734,
+          "radius_before": null,
+          "clearance_radius": 414.1286676544367,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 382,
+          "outer_polygon": [
+            [
+              1800.0,
+              -570.9730409511069
+            ],
+            [
+              1800.0,
+              -532.3305106871913
+            ],
+            [
+              1199.9999999999995,
+              5.095497661266492e-13
+            ]
+          ],
+          "clearance_center": [
+            1499.9999999999998,
+            -285.4865204755532
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 828.2573353088734,
+          "diameter": 72.40892401803846,
+          "radius_before": 414.1286676544367,
+          "clearance_radius": 36.20446200901923,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 3770.555423,
+          "outer_polygon": [
+            [
+              1659.8362576078873,
+              -437.5901772432532
+            ],
+            [
+              1655.3608922903686,
+              -404.0041605665118
+            ],
+            [
+              1622.9717507240841,
+              -375.26794678201173
+            ],
+            [
+              1625.9118058306863,
+              -405.30693158687376
+            ]
+          ],
+          "clearance_center": [
+            1641.4040041659857,
+            -406.42906201263247
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 72.40892401803846,
+          "diameter": 40.17039632513707,
+          "radius_before": 36.20446200901923,
+          "clearance_radius": 20.085198162568535,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 3861.963395,
+          "outer_polygon": [
+            [
+              1625.9118058306863,
+              -405.30693158687376
+            ],
+            [
+              1639.3316300811025,
+              -418.07752802235643
+            ],
+            [
+              1643.1320345512186,
+              -393.15450375750726
+            ],
+            [
+              1627.838976532008,
+              -379.5862347819485
+            ],
+            [
+              1624.9139090028182,
+              -395.1112697498433
+            ]
+          ],
+          "clearance_center": [
+            1633.5853033065553,
+            -398.8318814021525
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "active",
+          "diameter_before": 40.17039632513707,
+          "diameter": 30.51996961826558,
+          "radius_before": 20.085198162568535,
+          "clearance_radius": 15.259984809132801,
+          "status": "READY",
+          "improved": true,
+          "virtual_time_s": 3896.655831,
+          "outer_polygon": [
+            [
+              1625.5349960720457,
+              -401.4570096623815
+            ],
+            [
+              1625.9118058306863,
+              -405.30693158687376
+            ],
+            [
+              1635.6289799141766,
+              -414.5540056467101
+            ],
+            [
+              1642.5969368141045,
+              -396.66367073987186
+            ],
+            [
+              1643.1320345512186,
+              -393.15450375750726
+            ],
+            [
+              1632.981818271086,
+              -384.1490540641931
+            ]
+          ],
+          "clearance_center": [
+            1634.3053990926314,
+            -399.3515298554516
+          ]
+        }
+      ],
+      "revision": 5,
+      "q2_attempted": true,
+      "q2_proposal": {
+        "point": [
+          1251.5692288079247,
+          -788.0990512575019
+        ],
+        "score": 39.20155830752863,
+        "method": "original_q2_seed",
+        "planner_status": "SUCCESS_APPROXIMATE",
+        "receive_margin_m": 213.76313488166045
+      }
+    },
+    "4": {
+      "channel_id": 4,
+      "status": "ABSENT",
+      "bearing_observations": [],
+      "no_signal_observations": [
+        {
+          "position": [
+            0.0,
+            0.0
+          ],
+          "virtual_time_s": 23,
+          "real_timestamp_ms": 1789200252753,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            1200.0,
+            0.0
+          ],
+          "virtual_time_s": 388,
+          "real_timestamp_ms": 1789200252928,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            600.0000000000001,
+            1039.2304845413264
+          ],
+          "virtual_time_s": 705,
+          "real_timestamp_ms": 1789200252987,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            -599.9999999999998,
+            1039.2304845413264
+          ],
+          "virtual_time_s": 1011,
+          "real_timestamp_ms": 1789200253214,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            -1200.0,
+            1.4695761589768238e-13
+          ],
+          "virtual_time_s": 1305,
+          "real_timestamp_ms": 1789200253334,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            -600.0000000000006,
+            -1039.2304845413262
+          ],
+          "virtual_time_s": 1593,
+          "real_timestamp_ms": 1789200253391,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            600.0000000000001,
+            -1039.2304845413264
+          ],
+          "virtual_time_s": 1875,
+          "real_timestamp_ms": 1789200253522,
+          "measurement_kind": "unknown"
+        }
+      ],
+      "near_signal_observations": [],
+      "outer_polygon": [],
+      "region_status": null,
+      "diameter": null,
+      "clearance_center": null,
+      "clearance_radius": null,
+      "certificate_source": null,
+      "absent_reason": "seven_coverage_points_all_no_signal",
+      "last_action": "measure",
+      "failure_count": 0,
+      "clear_failure_count": 0,
+      "failed_clear_attempts": [],
+      "invalidated_localization_rounds": [],
+      "recovery_reset_pending": false,
+      "no_progress_count": 7,
+      "replan_level": 0,
+      "progress_history": [
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 23,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 388,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 705,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 1011,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 1305,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 1593,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 1875,
+          "outer_polygon": [],
+          "clearance_center": null
+        }
+      ],
+      "revision": 7,
+      "q2_attempted": false,
+      "q2_proposal": null
+    },
+    "5": {
+      "channel_id": 5,
+      "status": "CLEARED",
+      "bearing_observations": [
+        {
+          "position": [
+            600.0000000000001,
+            1039.2304845413264
+          ],
+          "virtual_time_s": 711,
+          "real_timestamp_ms": 1789200252988,
+          "measurement_kind": "unknown",
+          "bearing_deg": 129.6
+        },
+        {
+          "position": [
+            -388.337275887561,
+            965.442023172079
+          ],
+          "virtual_time_s": 2855.910748,
+          "real_timestamp_ms": 1789200266188,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 59.81
+        },
+        {
+          "position": [
+            -533.103170264036,
+            1394.3104048632042
+          ],
+          "virtual_time_s": 2958.439252,
+          "real_timestamp_ms": 1789200267509,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 28.3
+        }
+      ],
+      "no_signal_observations": [
+        {
+          "position": [
+            0.0,
+            0.0
+          ],
+          "virtual_time_s": 29,
+          "real_timestamp_ms": 1789200252754,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            1200.0,
+            0.0
+          ],
+          "virtual_time_s": 394,
+          "real_timestamp_ms": 1789200252930,
+          "measurement_kind": "unknown"
+        }
+      ],
+      "near_signal_observations": [],
+      "outer_polygon": [
+        [
+          41.47527968891281,
+          1690.8724570078055
+        ],
+        [
+          55.07553569237576,
+          1697.8920725718929
+        ],
+        [
+          63.322494034128155,
+          1711.514784606964
+        ],
+        [
+          53.67777579818959,
+          1723.596514466144
+        ],
+        [
+          26.77247336530448,
+          1708.4979629107982
+        ],
+        [
+          26.613025132987886,
+          1708.2125469302846
+        ]
+      ],
+      "region_status": "POLYGON",
+      "diameter": 36.85769771264974,
+      "clearance_center": [
+        45.047810388794375,
+        1708.9737775070712
+      ],
+      "clearance_radius": 18.450495370551316,
+      "certificate_source": "all_history_box_mec",
+      "absent_reason": null,
+      "last_action": "clear",
+      "failure_count": 0,
+      "clear_failure_count": 0,
+      "failed_clear_attempts": [],
+      "invalidated_localization_rounds": [],
+      "recovery_reset_pending": false,
+      "no_progress_count": 0,
+      "replan_level": 0,
+      "progress_history": [
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 29,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 394,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": 1001.9732184125999,
+          "radius_before": null,
+          "clearance_radius": 500.98660920630005,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 711,
+          "outer_polygon": [
+            [
+              599.9999999999995,
+              1039.230484541327
+            ],
+            [
+              -7.314325399779703,
+              1800.0
+            ],
+            [
+              -52.058336933805535,
+              1800.0
+            ]
+          ],
+          "clearance_center": [
+            273.970831533097,
+            1419.6152422706637
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 1001.9732184125999,
+          "diameter": 52.892159498187524,
+          "radius_before": 500.98660920630005,
+          "clearance_radius": 26.446079749093872,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 2855.910748,
+          "outer_polygon": [
+            [
+              26.613025132987886,
+              1708.2125469302846
+            ],
+            [
+              46.95534280917411,
+              1684.478757658314
+            ],
+            [
+              63.322494034128155,
+              1711.514784606964
+            ],
+            [
+              42.811590658532204,
+              1737.20834948772
+            ]
+          ],
+          "clearance_center": [
+            44.883466733853155,
+            1710.8435535730168
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 52.892159498187524,
+          "diameter": 36.85769771264974,
+          "radius_before": 26.446079749093872,
+          "clearance_radius": 18.450495370551316,
+          "status": "READY",
+          "improved": true,
+          "virtual_time_s": 2958.439252,
+          "outer_polygon": [
+            [
+              41.47527968891281,
+              1690.8724570078055
+            ],
+            [
+              55.07553569237576,
+              1697.8920725718929
+            ],
+            [
+              63.322494034128155,
+              1711.514784606964
+            ],
+            [
+              53.67777579818959,
+              1723.596514466144
+            ],
+            [
+              26.77247336530448,
+              1708.4979629107982
+            ],
+            [
+              26.613025132987886,
+              1708.2125469302846
+            ]
+          ],
+          "clearance_center": [
+            45.047810388794375,
+            1708.9737775070712
+          ]
+        }
+      ],
+      "revision": 5,
+      "q2_attempted": false,
+      "q2_proposal": {
+        "point": [
+          -386.1105761030258,
+          1223.196451041978
+        ],
+        "score": 53.54208485141295,
+        "method": "original_q2_seed",
+        "planner_status": "SUCCESS_APPROXIMATE",
+        "receive_margin_m": 0.6538783999941415
+      }
+    },
+    "6": {
+      "channel_id": 6,
+      "status": "ABSENT",
+      "bearing_observations": [],
+      "no_signal_observations": [
+        {
+          "position": [
+            0.0,
+            0.0
+          ],
+          "virtual_time_s": 35,
+          "real_timestamp_ms": 1789200252755,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            1200.0,
+            0.0
+          ],
+          "virtual_time_s": 400,
+          "real_timestamp_ms": 1789200252948,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            600.0000000000001,
+            1039.2304845413264
+          ],
+          "virtual_time_s": 717,
+          "real_timestamp_ms": 1789200253006,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            -599.9999999999998,
+            1039.2304845413264
+          ],
+          "virtual_time_s": 1017,
+          "real_timestamp_ms": 1789200253233,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            -1200.0,
+            1.4695761589768238e-13
+          ],
+          "virtual_time_s": 1311,
+          "real_timestamp_ms": 1789200253335,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            -600.0000000000006,
+            -1039.2304845413262
+          ],
+          "virtual_time_s": 1599,
+          "real_timestamp_ms": 1789200253410,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            600.0000000000001,
+            -1039.2304845413264
+          ],
+          "virtual_time_s": 1881,
+          "real_timestamp_ms": 1789200253539,
+          "measurement_kind": "unknown"
+        }
+      ],
+      "near_signal_observations": [],
+      "outer_polygon": [],
+      "region_status": null,
+      "diameter": null,
+      "clearance_center": null,
+      "clearance_radius": null,
+      "certificate_source": null,
+      "absent_reason": "seven_coverage_points_all_no_signal",
+      "last_action": "measure",
+      "failure_count": 0,
+      "clear_failure_count": 0,
+      "failed_clear_attempts": [],
+      "invalidated_localization_rounds": [],
+      "recovery_reset_pending": false,
+      "no_progress_count": 7,
+      "replan_level": 0,
+      "progress_history": [
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 35,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 400,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 717,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 1017,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 1311,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 1599,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 1881,
+          "outer_polygon": [],
+          "clearance_center": null
+        }
+      ],
+      "revision": 7,
+      "q2_attempted": false,
+      "q2_proposal": null
+    },
+    "7": {
+      "channel_id": 7,
+      "status": "CLEARED",
+      "bearing_observations": [
+        {
+          "position": [
+            600.0000000000001,
+            1039.2304845413264
+          ],
+          "virtual_time_s": 723,
+          "real_timestamp_ms": 1789200253026,
+          "measurement_kind": "unknown",
+          "bearing_deg": 143.15
+        },
+        {
+          "position": [
+            -388.337275887561,
+            965.442023172079
+          ],
+          "virtual_time_s": 2849.910748,
+          "real_timestamp_ms": 1789200266148,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 79.12
+        },
+        {
+          "position": [
+            -533.103170264036,
+            1394.3104048632042
+          ],
+          "virtual_time_s": 2952.439252,
+          "real_timestamp_ms": 1789200267486,
+          "measurement_kind": "active",
+          "bearing_deg": 45.3
+        }
+      ],
+      "no_signal_observations": [
+        {
+          "position": [
+            0.0,
+            0.0
+          ],
+          "virtual_time_s": 41,
+          "real_timestamp_ms": 1789200252771,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            1200.0,
+            0.0
+          ],
+          "virtual_time_s": 406,
+          "real_timestamp_ms": 1789200252967,
+          "measurement_kind": "unknown"
+        }
+      ],
+      "near_signal_observations": [],
+      "outer_polygon": [
+        [
+          -264.72903781712813,
+          1675.1478924881608
+        ],
+        [
+          -266.4473357054277,
+          1665.2821576828094
+        ],
+        [
+          -260.1159859960941,
+          1660.7074398489262
+        ],
+        [
+          -237.41504850739685,
+          1682.860356860772
+        ],
+        [
+          -236.13000857189374,
+          1688.968875302723
+        ],
+        [
+          -244.96248960850448,
+          1695.832403649182
+        ]
+      ],
+      "region_status": "POLYGON",
+      "diameter": 38.473379317747,
+      "clearance_center": [
+        -251.85396786367966,
+        1677.8490551314917
+      ],
+      "clearance_radius": 19.25859019892851,
+      "certificate_source": "all_history_box_mec",
+      "absent_reason": null,
+      "last_action": "clear",
+      "failure_count": 0,
+      "clear_failure_count": 0,
+      "failed_clear_attempts": [],
+      "invalidated_localization_rounds": [],
+      "recovery_reset_pending": false,
+      "no_progress_count": 0,
+      "replan_level": 0,
+      "progress_history": [
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 41,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 406,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": 1298.983557452303,
+          "radius_before": null,
+          "clearance_radius": 649.4917787261517,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 723,
+          "outer_polygon": [
+            [
+              600.0000000000003,
+              1039.2304845413262
+            ],
+            [
+              -379.01283120469304,
+              1800.0
+            ],
+            [
+              -452.89506926389157,
+              1800.0
+            ]
+          ],
+          "clearance_center": [
+            73.55246536805438,
+            1419.6152422706632
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 1298.983557452303,
+          "diameter": 59.36369179527647,
+          "radius_before": 649.4917787261517,
+          "clearance_radius": 29.681845897638347,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 2849.910748,
+          "outer_polygon": [
+            [
+              -266.4473357054277,
+              1665.2821576828094
+            ],
+            [
+              -244.4557142663274,
+              1649.3921077863163
+            ],
+            [
+              -236.13000857189374,
+              1688.968875302723
+            ],
+            [
+              -259.19957213655766,
+              1706.895729921509
+            ]
+          ],
+          "clearance_center": [
+            -251.82764320144253,
+            1678.1439188539125
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "active",
+          "diameter_before": 59.36369179527647,
+          "diameter": 38.473379317747,
+          "radius_before": 29.681845897638347,
+          "clearance_radius": 19.25859019892851,
+          "status": "READY",
+          "improved": true,
+          "virtual_time_s": 2952.439252,
+          "outer_polygon": [
+            [
+              -264.72903781712813,
+              1675.1478924881608
+            ],
+            [
+              -266.4473357054277,
+              1665.2821576828094
+            ],
+            [
+              -260.1159859960941,
+              1660.7074398489262
+            ],
+            [
+              -237.41504850739685,
+              1682.860356860772
+            ],
+            [
+              -236.13000857189374,
+              1688.968875302723
+            ],
+            [
+              -244.96248960850448,
+              1695.832403649182
+            ]
+          ],
+          "clearance_center": [
+            -251.85396786367966,
+            1677.8490551314917
+          ]
+        }
+      ],
+      "revision": 5,
+      "q2_attempted": true,
+      "q2_proposal": {
+        "point": [
+          -389.86241901437785,
+          1209.5496369716411
+        ],
+        "score": 74.53625257007027,
+        "method": "original_q2_seed",
+        "planner_status": "SUCCESS_APPROXIMATE",
+        "receive_margin_m": -0.0
+      }
+    },
+    "8": {
+      "channel_id": 8,
+      "status": "CLEARED",
+      "bearing_observations": [
+        {
+          "position": [
+            0.0,
+            0.0
+          ],
+          "virtual_time_s": 47,
+          "real_timestamp_ms": 1789200252772,
+          "measurement_kind": "unknown",
+          "bearing_deg": 6.56
+        },
+        {
+          "position": [
+            600.0000000000001,
+            1039.2304845413264
+          ],
+          "virtual_time_s": 753,
+          "real_timestamp_ms": 1789200253175,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 306.36
+        },
+        {
+          "position": [
+            785.1923598076289,
+            901.9497923988478
+          ],
+          "virtual_time_s": 3537.62233,
+          "real_timestamp_ms": 1789200271507,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 302.67
+        },
+        {
+          "position": [
+            1349.3267986950264,
+            846.428639389781
+          ],
+          "virtual_time_s": 3667.994331,
+          "real_timestamp_ms": 1789200272202,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 262.56
+        },
+        {
+          "position": [
+            1543.9553087056227,
+            432.0549145469348
+          ],
+          "virtual_time_s": 3764.555423,
+          "real_timestamp_ms": 1789200273636,
+          "measurement_kind": "active",
+          "bearing_deg": 226.42
+        }
+      ],
+      "no_signal_observations": [],
+      "near_signal_observations": [],
+      "outer_polygon": [
+        [
+          1263.4068585294822,
+          126.74694028176121
+        ],
+        [
+          1268.7489755343283,
+          132.56052050297848
+        ],
+        [
+          1271.3269878922279,
+          155.40006568069325
+        ],
+        [
+          1255.5853314877193,
+          139.42591611141742
+        ]
+      ],
+      "region_status": "POLYGON",
+      "diameter": 29.72759735077072,
+      "clearance_center": [
+        1267.366923210855,
+        141.07350298122722
+      ],
+      "clearance_radius": 14.863798675385366,
+      "certificate_source": "all_history_box_mec",
+      "absent_reason": null,
+      "last_action": "clear",
+      "failure_count": 0,
+      "clear_failure_count": 0,
+      "failed_clear_attempts": [],
+      "invalidated_localization_rounds": [],
+      "recovery_reset_pending": false,
+      "no_progress_count": 0,
+      "replan_level": 0,
+      "progress_history": [
+        {
+          "result": "direction",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": 1815.7834597298597,
+          "radius_before": null,
+          "clearance_radius": 907.8917298649299,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 47,
+          "outer_polygon": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1800.0,
+              175.2229114098918
+            ],
+            [
+              1800.0,
+              238.89238712972636
+            ]
+          ],
+          "clearance_center": [
+            900.0,
+            119.44619356486318
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 1815.7834597298597,
+          "diameter": 82.88645002894322,
+          "radius_before": 907.8917298649299,
+          "clearance_radius": 41.44322501447161,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 753,
+          "outer_polygon": [
+            [
+              1251.0324328601325,
+              121.78308064108467
+            ],
+            [
+              1297.0101260269853,
+              126.25882800586612
+            ],
+            [
+              1265.2070672795162,
+              167.91574250877997
+            ],
+            [
+              1222.333836667633,
+              162.22569339498216
+            ]
+          ],
+          "clearance_center": [
+            1259.6719813473092,
+            144.24226070042414
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 82.88645002894322,
+          "diameter": 68.63544141448993,
+          "radius_before": 41.44322501447161,
+          "clearance_radius": 34.31772070724498,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 3537.62233,
+          "outer_polygon": [
+            [
+              1265.594531701242,
+              123.20064361618344
+            ],
+            [
+              1297.0101260269853,
+              126.25882800586612
+            ],
+            [
+              1265.2070672795162,
+              167.91574250877997
+            ],
+            [
+              1240.0684168070375,
+              164.5793912751187
+            ]
+          ],
+          "clearance_center": [
+            1268.5392714170114,
+            145.41910964049242
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 68.63544141448993,
+          "diameter": 46.506321623450134,
+          "radius_before": 34.31772070724498,
+          "clearance_radius": 23.319843042583326,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 3667.994331,
+          "outer_polygon": [
+            [
+              1265.594531701242,
+              123.20064361618344
+            ],
+            [
+              1267.7157881853975,
+              123.40713958118394
+            ],
+            [
+              1271.7694572966673,
+              159.32006238725737
+            ],
+            [
+              1265.2070672795162,
+              167.91574250877997
+            ],
+            [
+              1248.3160293677104,
+              165.67399785997438
+            ],
+            [
+              1246.5859477124645,
+              154.01423994626475
+            ]
+          ],
+          "clearance_center": [
+            1259.6175312801347,
+            145.27568582063674
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "active",
+          "diameter_before": 46.506321623450134,
+          "diameter": 29.72759735077072,
+          "radius_before": 23.319843042583326,
+          "clearance_radius": 14.863798675385366,
+          "status": "READY",
+          "improved": true,
+          "virtual_time_s": 3764.555423,
+          "outer_polygon": [
+            [
+              1263.4068585294822,
+              126.74694028176121
+            ],
+            [
+              1268.7489755343283,
+              132.56052050297848
+            ],
+            [
+              1271.3269878922279,
+              155.40006568069325
+            ],
+            [
+              1255.5853314877193,
+              139.42591611141742
+            ]
+          ],
+          "clearance_center": [
+            1267.366923210855,
+            141.07350298122722
+          ]
+        }
+      ],
+      "revision": 5,
+      "q2_attempted": true,
+      "q2_proposal": null
+    },
+    "9": {
+      "channel_id": 9,
+      "status": "CLEARED",
+      "bearing_observations": [
+        {
+          "position": [
+            1200.0,
+            0.0
+          ],
+          "virtual_time_s": 412,
+          "real_timestamp_ms": 1789200252970,
+          "measurement_kind": "unknown",
+          "bearing_deg": 330.27
+        },
+        {
+          "position": [
+            1349.3267986950264,
+            846.428639389781
+          ],
+          "virtual_time_s": 3661.994331,
+          "real_timestamp_ms": 1789200272167,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 288.57
+        },
+        {
+          "position": [
+            1543.9553087056227,
+            432.0549145469348
+          ],
+          "virtual_time_s": 3776.555423,
+          "real_timestamp_ms": 1789200273726,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 282.99
+        },
+        {
+          "position": [
+            1718.8970721407195,
+            103.71204955770361
+          ],
+          "virtual_time_s": 3855.963395,
+          "real_timestamp_ms": 1789200275033,
+          "measurement_kind": "active",
+          "bearing_deg": 269.4
+        }
+      ],
+      "no_signal_observations": [
+        {
+          "position": [
+            0.0,
+            0.0
+          ],
+          "virtual_time_s": 53,
+          "real_timestamp_ms": 1789200252781,
+          "measurement_kind": "unknown"
+        }
+      ],
+      "near_signal_observations": [],
+      "outer_polygon": [
+        [
+          1714.1155111658168,
+          -305.6236576694705
+        ],
+        [
+          1721.786657817279,
+          -310.18388557004954
+        ],
+        [
+          1721.6173466394614,
+          -285.93223979298944
+        ],
+        [
+          1708.2184801086514,
+          -278.58745353822957
+        ],
+        [
+          1708.0025442198246,
+          -286.3180778331932
+        ]
+      ],
+      "region_status": "POLYGON",
+      "diameter": 34.38647937015827,
+      "clearance_center": [
+        1715.0025689629651,
+        -294.38566955413955
+      ],
+      "clearance_radius": 17.193239685079178,
+      "certificate_source": "all_history_box_mec",
+      "absent_reason": null,
+      "last_action": "clear",
+      "failure_count": 0,
+      "clear_failure_count": 0,
+      "failed_clear_attempts": [],
+      "invalidated_localization_rounds": [],
+      "recovery_reset_pending": false,
+      "no_progress_count": 0,
+      "replan_level": 0,
+      "progress_history": [
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 53,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": 698.0113843344136,
+          "radius_before": null,
+          "clearance_radius": 349.0056921672068,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 412,
+          "outer_polygon": [
+            [
+              1800.0,
+              -356.67897703739766
+            ],
+            [
+              1800.0,
+              -328.8988469825072
+            ],
+            [
+              1200.0,
+              -5.201828751462862e-14
+            ]
+          ],
+          "clearance_center": [
+            1500.0,
+            -178.33948851869886
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 698.0113843344136,
+          "diameter": 90.83246325814419,
+          "radius_before": 349.0056921672068,
+          "clearance_radius": 45.41623162907211,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 3661.994331,
+          "outer_polygon": [
+            [
+              1770.8680408821667,
+              -339.3610480753242
+            ],
+            [
+              1759.1976664963547,
+              -306.5324462432661
+            ],
+            [
+              1704.9952339732415,
+              -276.8205836424343
+            ],
+            [
+              1714.1155111658168,
+              -305.6236576694705
+            ]
+          ],
+          "clearance_center": [
+            1737.9316374277041,
+            -308.0908158588793
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 90.83246325814419,
+          "diameter": 45.81110181963959,
+          "radius_before": 45.41623162907211,
+          "clearance_radius": 22.905550909819794,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 3776.555423,
+          "outer_polygon": [
+            [
+              1714.1155111658168,
+              -305.6236576694705
+            ],
+            [
+              1730.111614932949,
+              -315.13278088321175
+            ],
+            [
+              1723.0293550734043,
+              -286.70625303607835
+            ],
+            [
+              1704.9952339732415,
+              -276.8205836424343
+            ]
+          ],
+          "clearance_center": [
+            1717.5534244530952,
+            -295.97668226282303
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "active",
+          "diameter_before": 45.81110181963959,
+          "diameter": 34.38647937015827,
+          "radius_before": 22.905550909819794,
+          "clearance_radius": 17.193239685079178,
+          "status": "READY",
+          "improved": true,
+          "virtual_time_s": 3855.963395,
+          "outer_polygon": [
+            [
+              1714.1155111658168,
+              -305.6236576694705
+            ],
+            [
+              1721.786657817279,
+              -310.18388557004954
+            ],
+            [
+              1721.6173466394614,
+              -285.93223979298944
+            ],
+            [
+              1708.2184801086514,
+              -278.58745353822957
+            ],
+            [
+              1708.0025442198246,
+              -286.3180778331932
+            ]
+          ],
+          "clearance_center": [
+            1715.0025689629651,
+            -294.38566955413955
+          ]
+        }
+      ],
+      "revision": 5,
+      "q2_attempted": true,
+      "q2_proposal": {
+        "point": [
+          1397.2717838505434,
+          -703.233480873809
+        ],
+        "score": 35.67620413576097,
+        "method": "original_q2_seed",
+        "planner_status": "SUCCESS_APPROXIMATE",
+        "receive_margin_m": 273.1105324780267
+      }
+    },
+    "10": {
+      "channel_id": 10,
+      "status": "CLEARED",
+      "bearing_observations": [
+        {
+          "position": [
+            1200.0,
+            0.0
+          ],
+          "virtual_time_s": 418,
+          "real_timestamp_ms": 1789200252975,
+          "measurement_kind": "unknown",
+          "bearing_deg": 79.98
+        },
+        {
+          "position": [
+            600.0000000000001,
+            1039.2304845413264
+          ],
+          "virtual_time_s": 747,
+          "real_timestamp_ms": 1789200253136,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 345.51
+        },
+        {
+          "position": [
+            416.5092156316802,
+            751.3751028941838
+          ],
+          "virtual_time_s": 3440.9731,
+          "real_timestamp_ms": 1789200271442,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 5.83
+        }
+      ],
+      "no_signal_observations": [
+        {
+          "position": [
+            0.0,
+            0.0
+          ],
+          "virtual_time_s": 59,
+          "real_timestamp_ms": 1789200252782,
+          "measurement_kind": "unknown"
+        }
+      ],
+      "near_signal_observations": [],
+      "outer_polygon": [
+        [
+          1332.734417078036,
+          836.1629616186486
+        ],
+        [
+          1353.1061036326735,
+          830.5172217298303
+        ],
+        [
+          1361.8814784058325,
+          831.258737916807
+        ],
+        [
+          1366.570109395318,
+          855.3347811878382
+        ],
+        [
+          1339.2316220511088,
+          861.8931250329296
+        ],
+        [
+          1336.7721189842205,
+          861.5985408627548
+        ]
+      ],
+      "region_status": "POLYGON",
+      "diameter": 39.382528783238854,
+      "clearance_center": [
+        1349.3267986950264,
+        846.428639389781
+      ],
+      "clearance_radius": 19.691264391619544,
+      "certificate_source": "all_history_box_mec",
+      "absent_reason": null,
+      "last_action": "clear",
+      "failure_count": 0,
+      "clear_failure_count": 0,
+      "failed_clear_attempts": [],
+      "invalidated_localization_rounds": [],
+      "recovery_reset_pending": false,
+      "no_progress_count": 0,
+      "replan_level": 0,
+      "progress_history": [
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 59,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": 1833.8145897610507,
+          "radius_before": null,
+          "clearance_radius": 916.9072948805253,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 418,
+          "outer_polygon": [
+            [
+              1200.0,
+              -4.980609633681813e-13
+            ],
+            [
+              1550.536659453029,
+              1800.0
+            ],
+            [
+              1485.7361085187965,
+              1800.0
+            ]
+          ],
+          "clearance_center": [
+            1375.2683297265144,
+            899.9999999999998
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 1833.8145897610507,
+          "diameter": 42.00717016984069,
+          "radius_before": 916.9072948805253,
+          "clearance_radius": 21.003585084920413,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 747,
+          "outer_polygon": [
+            [
+              1332.734417078036,
+              836.1629616186486
+            ],
+            [
+              1361.2951104816057,
+              828.2477482381377
+            ],
+            [
+              1366.570109395318,
+              855.3347811878382
+            ],
+            [
+              1336.907391771683,
+              862.4506943364439
+            ]
+          ],
+          "clearance_center": [
+            1349.1012511266445,
+            845.3492212872908
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 42.00717016984069,
+          "diameter": 39.382528783238854,
+          "radius_before": 21.003585084920413,
+          "clearance_radius": 19.691264391619544,
+          "status": "READY",
+          "improved": true,
+          "virtual_time_s": 3440.9731,
+          "outer_polygon": [
+            [
+              1332.734417078036,
+              836.1629616186486
+            ],
+            [
+              1353.1061036326735,
+              830.5172217298303
+            ],
+            [
+              1361.8814784058325,
+              831.258737916807
+            ],
+            [
+              1366.570109395318,
+              855.3347811878382
+            ],
+            [
+              1339.2316220511088,
+              861.8931250329296
+            ],
+            [
+              1336.7721189842205,
+              861.5985408627548
+            ]
+          ],
+          "clearance_center": [
+            1349.3267986950264,
+            846.428639389781
+          ]
+        }
+      ],
+      "revision": 4,
+      "q2_attempted": false,
+      "q2_proposal": null
+    },
+    "11": {
+      "channel_id": 11,
+      "status": "CLEARED",
+      "bearing_observations": [
+        {
+          "position": [
+            0.0,
+            0.0
+          ],
+          "virtual_time_s": 65,
+          "real_timestamp_ms": 1789200252783,
+          "measurement_kind": "unknown",
+          "bearing_deg": 67.31
+        },
+        {
+          "position": [
+            -599.9999999999998,
+            1039.2304845413264
+          ],
+          "virtual_time_s": 1041,
+          "real_timestamp_ms": 1789200253288,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 3.76
+        },
+        {
+          "position": [
+            -533.103170264036,
+            1394.3104048632042
+          ],
+          "virtual_time_s": 2964.439252,
+          "real_timestamp_ms": 1789200267525,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 345.15
+        },
+        {
+          "position": [
+            -251.85396786367966,
+            1677.8490551314917
+          ],
+          "virtual_time_s": 3054.312972,
+          "real_timestamp_ms": 1789200268234,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 322.72
+        },
+        {
+          "position": [
+            -160.08272838937114,
+            1520.4879778789384
+          ],
+          "virtual_time_s": 3100.746182,
+          "real_timestamp_ms": 1789200269107,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 327.67
+        },
+        {
+          "position": [
+            45.047810388794375,
+            1708.9737775070712
+          ],
+          "virtual_time_s": 3166.461686,
+          "real_timestamp_ms": 1789200269892,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 305.65
+        },
+        {
+          "position": [
+            236.6794005940578,
+            1672.8029099305895
+          ],
+          "virtual_time_s": 3210.464762,
+          "real_timestamp_ms": 1789200270768,
+          "measurement_kind": "active",
+          "bearing_deg": 293.68
+        }
+      ],
+      "no_signal_observations": [],
+      "near_signal_observations": [],
+      "outer_polygon": [
+        [
+          472.3563682290511,
+          1108.8461124305004
+        ],
+        [
+          484.94983329186874,
+          1105.2706482215467
+        ],
+        [
+          488.3869075069357,
+          1113.104236326703
+        ],
+        [
+          476.64776175523247,
+          1128.8822253161397
+        ],
+        [
+          464.40917751131576,
+          1127.8631265718134
+        ]
+      ],
+      "region_status": "POLYGON",
+      "diameter": 30.534220440391678,
+      "clearance_center": [
+        474.6795054015922,
+        1116.5668873966802
+      ],
+      "clearance_radius": 15.267110220195942,
+      "certificate_source": "all_history_box_mec",
+      "absent_reason": null,
+      "last_action": "clear",
+      "failure_count": 0,
+      "clear_failure_count": 0,
+      "failed_clear_attempts": [],
+      "invalidated_localization_rounds": [],
+      "recovery_reset_pending": false,
+      "no_progress_count": 0,
+      "replan_level": 0,
+      "progress_history": [
+        {
+          "result": "direction",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": 1965.639029914526,
+          "radius_before": null,
+          "clearance_radius": 982.819514957263,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 65,
+          "outer_polygon": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              789.7700905474445,
+              1800.0
+            ],
+            [
+              715.9431128759627,
+              1800.0
+            ]
+          ],
+          "clearance_center": [
+            394.88504527372226,
+            900.0
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 1965.639029914526,
+          "diameter": 75.29754755037393,
+          "radius_before": 982.819514957263,
+          "clearance_radius": 37.648773775186996,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 1041,
+          "outer_polygon": [
+            [
+              433.16049069432336,
+              1089.0374796926963
+            ],
+            [
+              478.79255731280597,
+              1091.2373277717554
+            ],
+            [
+              496.01735098651824,
+              1130.4951180879102
+            ],
+            [
+              448.06181767213684,
+              1126.5018928250722
+            ]
+          ],
+          "clearance_center": [
+            464.58892084042077,
+            1109.7662988903032
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 75.29754755037393,
+          "diameter": 53.571177216772575,
+          "radius_before": 37.648773775186996,
+          "clearance_radius": 26.785588608386288,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 2964.439252,
+          "outer_polygon": [
+            [
+              444.2169635628563,
+              1116.835290448098
+            ],
+            [
+              484.94983329186874,
+              1105.2706482215467
+            ],
+            [
+              496.01735098651824,
+              1130.4951180879102
+            ],
+            [
+              448.06181767213684,
+              1126.5018928250722
+            ]
+          ],
+          "clearance_center": [
+            470.11715727468726,
+            1123.6652042680041
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 53.571177216772575,
+          "diameter": 47.860544871180736,
+          "radius_before": 26.785588608386288,
+          "clearance_radius": 24.026167359518993,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 3054.312972,
+          "outer_polygon": [
+            [
+              467.34211088746554,
+              1110.2697315512028
+            ],
+            [
+              484.94983329186874,
+              1105.2706482215467
+            ],
+            [
+              495.48291771596996,
+              1129.2770675457327
+            ],
+            [
+              494.0470418451639,
+              1130.331051760313
+            ],
+            [
+              448.06181767213684,
+              1126.5018928250722
+            ],
+            [
+              447.7541217656283,
+              1125.7282941665273
+            ]
+          ],
+          "clearance_center": [
+            471.77752881345015,
+            1125.3641076727076
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 47.860544871180736,
+          "diameter": 45.08840582580529,
+          "radius_before": 24.026167359518993,
+          "clearance_radius": 22.634543490060068,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 3100.746182,
+          "outer_polygon": [
+            [
+              467.34211088746554,
+              1110.2697315512028
+            ],
+            [
+              484.94983329186874,
+              1105.2706482215467
+            ],
+            [
+              492.764809775514,
+              1123.0821073270831
+            ],
+            [
+              482.4436934331649,
+              1129.364848679877
+            ],
+            [
+              448.06181767213684,
+              1126.5018928250722
+            ],
+            [
+              447.7541217656283,
+              1125.7282941665273
+            ]
+          ],
+          "clearance_center": [
+            470.1408986854293,
+            1122.3884172007572
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 45.08840582580529,
+          "diameter": 42.56161937445891,
+          "radius_before": 22.634543490060068,
+          "clearance_radius": 21.37257665755901,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 3166.461686,
+          "outer_polygon": [
+            [
+              467.34211088746554,
+              1110.2697315512028
+            ],
+            [
+              484.94983329186874,
+              1105.2706482215467
+            ],
+            [
+              488.3869075069357,
+              1113.104236326703
+            ],
+            [
+              476.64776175523247,
+              1128.8822253161397
+            ],
+            [
+              448.06181767213684,
+              1126.5018928250722
+            ],
+            [
+              447.90003132047514,
+              1126.09513504257
+            ],
+            [
+              448.63288093225333,
+              1125.0347899218307
+            ]
+          ],
+          "clearance_center": [
+            467.4927348363256,
+            1117.6009664046558
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "active",
+          "diameter_before": 42.56161937445891,
+          "diameter": 30.534220440391678,
+          "radius_before": 21.37257665755901,
+          "clearance_radius": 15.267110220195942,
+          "status": "READY",
+          "improved": true,
+          "virtual_time_s": 3210.464762,
+          "outer_polygon": [
+            [
+              472.3563682290511,
+              1108.8461124305004
+            ],
+            [
+              484.94983329186874,
+              1105.2706482215467
+            ],
+            [
+              488.3869075069357,
+              1113.104236326703
+            ],
+            [
+              476.64776175523247,
+              1128.8822253161397
+            ],
+            [
+              464.40917751131576,
+              1127.8631265718134
+            ]
+          ],
+          "clearance_center": [
+            474.6795054015922,
+            1116.5668873966802
+          ]
+        }
+      ],
+      "revision": 7,
+      "q2_attempted": true,
+      "q2_proposal": null
+    },
+    "12": {
+      "channel_id": 12,
+      "status": "CLEARED",
+      "bearing_observations": [
+        {
+          "position": [
+            600.0000000000001,
+            1039.2304845413264
+          ],
+          "virtual_time_s": 729,
+          "real_timestamp_ms": 1789200253047,
+          "measurement_kind": "unknown",
+          "bearing_deg": 147.67
+        },
+        {
+          "position": [
+            -599.9999999999998,
+            1039.2304845413264
+          ],
+          "virtual_time_s": 1047,
+          "real_timestamp_ms": 1789200253313,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 47.55
+        },
+        {
+          "position": [
+            -388.337275887561,
+            965.442023172079
+          ],
+          "virtual_time_s": 2843.910748,
+          "real_timestamp_ms": 1789200266099,
+          "measurement_kind": "active",
+          "bearing_deg": 67.54
+        }
+      ],
+      "no_signal_observations": [
+        {
+          "position": [
+            0.0,
+            0.0
+          ],
+          "virtual_time_s": 71,
+          "real_timestamp_ms": 1789200252786,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            1200.0,
+            0.0
+          ],
+          "virtual_time_s": 424,
+          "real_timestamp_ms": 1789200252980,
+          "measurement_kind": "unknown"
+        }
+      ],
+      "near_signal_observations": [],
+      "outer_polygon": [
+        [
+          -174.09508180503116,
+          1510.4429987821975
+        ],
+        [
+          -161.10667695920665,
+          1502.536607116321
+        ],
+        [
+          -150.29417741424297,
+          1513.950536143114
+        ],
+        [
+          -143.9827328703046,
+          1528.4936213394396
+        ],
+        [
+          -159.1107891430594,
+          1538.4422396858774
+        ],
+        [
+          -166.2791303061438,
+          1530.3256423970872
+        ]
+      ],
+      "region_status": "POLYGON",
+      "diameter": 35.96106253150259,
+      "clearance_center": [
+        -160.08272838937114,
+        1520.4879778789384
+      ],
+      "clearance_radius": 17.980550128698248,
+      "certificate_source": "all_history_box_mec",
+      "absent_reason": null,
+      "last_action": "clear",
+      "failure_count": 0,
+      "clear_failure_count": 0,
+      "failed_clear_attempts": [],
+      "invalidated_localization_rounds": [],
+      "recovery_reset_pending": false,
+      "no_progress_count": 0,
+      "replan_level": 0,
+      "progress_history": [
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 71,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 424,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": 1463.112742206238,
+          "radius_before": null,
+          "clearance_radius": 731.556371103119,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 729,
+          "outer_polygon": [
+            [
+              599.999999999999,
+              1039.230484541327
+            ],
+            [
+              -556.840441524848,
+              1800.0
+            ],
+            [
+              -649.7714354053046,
+              1800.0
+            ]
+          ],
+          "clearance_center": [
+            -24.885717702652812,
+            1419.6152422706637
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 1463.112742206238,
+          "diameter": 42.541256940288406,
+          "radius_before": 731.556371103119,
+          "clearance_radius": 21.270628470144235,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 1047,
+          "outer_polygon": [
+            [
+              -180.4320714711573,
+              1514.3004949780534
+            ],
+            [
+              -161.10667695920665,
+              1502.536607116321
+            ],
+            [
+              -139.38295275986204,
+              1525.4686817192226
+            ],
+            [
+              -159.1107891430594,
+              1538.4422396858774
+            ]
+          ],
+          "clearance_center": [
+            -159.90751211550966,
+            1519.8845883486379
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "active",
+          "diameter_before": 42.541256940288406,
+          "diameter": 35.96106253150259,
+          "radius_before": 21.270628470144235,
+          "clearance_radius": 17.980550128698248,
+          "status": "READY",
+          "improved": true,
+          "virtual_time_s": 2843.910748,
+          "outer_polygon": [
+            [
+              -174.09508180503116,
+              1510.4429987821975
+            ],
+            [
+              -161.10667695920665,
+              1502.536607116321
+            ],
+            [
+              -150.29417741424297,
+              1513.950536143114
+            ],
+            [
+              -143.9827328703046,
+              1528.4936213394396
+            ],
+            [
+              -159.1107891430594,
+              1538.4422396858774
+            ],
+            [
+              -166.2791303061438,
+              1530.3256423970872
+            ]
+          ],
+          "clearance_center": [
+            -160.08272838937114,
+            1520.4879778789384
+          ]
+        }
+      ],
+      "revision": 5,
+      "q2_attempted": true,
+      "q2_proposal": null
+    },
+    "13": {
+      "channel_id": 13,
+      "status": "ABSENT",
+      "bearing_observations": [],
+      "no_signal_observations": [
+        {
+          "position": [
+            0.0,
+            0.0
+          ],
+          "virtual_time_s": 77,
+          "real_timestamp_ms": 1789200252787,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            1200.0,
+            0.0
+          ],
+          "virtual_time_s": 430,
+          "real_timestamp_ms": 1789200252981,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            600.0000000000001,
+            1039.2304845413264
+          ],
+          "virtual_time_s": 735,
+          "real_timestamp_ms": 1789200253067,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            -599.9999999999998,
+            1039.2304845413264
+          ],
+          "virtual_time_s": 1023,
+          "real_timestamp_ms": 1789200253236,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            -1200.0,
+            1.4695761589768238e-13
+          ],
+          "virtual_time_s": 1317,
+          "real_timestamp_ms": 1789200253351,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            -600.0000000000006,
+            -1039.2304845413262
+          ],
+          "virtual_time_s": 1605,
+          "real_timestamp_ms": 1789200253411,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            600.0000000000001,
+            -1039.2304845413264
+          ],
+          "virtual_time_s": 1887,
+          "real_timestamp_ms": 1789200253542,
+          "measurement_kind": "unknown"
+        }
+      ],
+      "near_signal_observations": [],
+      "outer_polygon": [],
+      "region_status": null,
+      "diameter": null,
+      "clearance_center": null,
+      "clearance_radius": null,
+      "certificate_source": null,
+      "absent_reason": "seven_coverage_points_all_no_signal",
+      "last_action": "measure",
+      "failure_count": 0,
+      "clear_failure_count": 0,
+      "failed_clear_attempts": [],
+      "invalidated_localization_rounds": [],
+      "recovery_reset_pending": false,
+      "no_progress_count": 7,
+      "replan_level": 0,
+      "progress_history": [
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 77,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 430,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 735,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 1023,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 1317,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 1605,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 1887,
+          "outer_polygon": [],
+          "clearance_center": null
+        }
+      ],
+      "revision": 7,
+      "q2_attempted": false,
+      "q2_proposal": null
+    },
+    "14": {
+      "channel_id": 14,
+      "status": "CLEARED",
+      "bearing_observations": [
+        {
+          "position": [
+            0.0,
+            0.0
+          ],
+          "virtual_time_s": 83,
+          "real_timestamp_ms": 1789200252801,
+          "measurement_kind": "unknown",
+          "bearing_deg": 356.2
+        },
+        {
+          "position": [
+            600.0000000000001,
+            -1039.2304845413264
+          ],
+          "virtual_time_s": 1905,
+          "real_timestamp_ms": 1789200253666,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 78.32
+        },
+        {
+          "position": [
+            416.5092156316802,
+            751.3751028941838
+          ],
+          "virtual_time_s": 3446.9731,
+          "real_timestamp_ms": 1789200271455,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 294.6
+        }
+      ],
+      "no_signal_observations": [],
+      "near_signal_observations": [],
+      "outer_polygon": [
+        [
+          783.5798807188395,
+          -65.79904099516347
+        ],
+        [
+          809.0585418467936,
+          -67.93854394733494
+        ],
+        [
+          795.1402589206984,
+          -38.888846545225384
+        ],
+        [
+          788.7141584442818,
+          -38.57455779867043
+        ]
+      ],
+      "region_status": "POLYGON",
+      "diameter": 35.72306843717875,
+      "clearance_center": [
+        797.3742932798891,
+        -54.30415607365261
+      ],
+      "clearance_radius": 17.956007275093878,
+      "certificate_source": "all_history_box_mec",
+      "absent_reason": null,
+      "last_action": "clear",
+      "failure_count": 0,
+      "clear_failure_count": 0,
+      "failed_clear_attempts": [],
+      "invalidated_localization_rounds": [],
+      "recovery_reset_pending": false,
+      "no_progress_count": 0,
+      "replan_level": 0,
+      "progress_history": [
+        {
+          "result": "direction",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": 1806.335071337738,
+          "radius_before": null,
+          "clearance_radius": 903.167535668869,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 83,
+          "outer_polygon": [
+            [
+              1800.0,
+              -151.15022310506683
+            ],
+            [
+              1800.0,
+              -88.03468695752076
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "clearance_center": [
+            900.0,
+            -75.57511155253341
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 1806.335071337738,
+          "diameter": 48.40269485704308,
+          "radius_before": 903.167535668869,
+          "clearance_radius": 24.201347428521544,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 1905,
+          "outer_polygon": [
+            [
+              783.5798807188395,
+              -65.79904099516347
+            ],
+            [
+              818.3581571083798,
+              -68.71945445932386
+            ],
+            [
+              824.7440739769473,
+              -40.33671465146161
+            ],
+            [
+              788.7141584442818,
+              -38.57455779867043
+            ]
+          ],
+          "clearance_center": [
+            804.1619773478934,
+            -53.06787782331254
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 48.40269485704308,
+          "diameter": 35.72306843717875,
+          "radius_before": 24.201347428521544,
+          "clearance_radius": 17.956007275093878,
+          "status": "READY",
+          "improved": true,
+          "virtual_time_s": 3446.9731,
+          "outer_polygon": [
+            [
+              783.5798807188395,
+              -65.79904099516347
+            ],
+            [
+              809.0585418467936,
+              -67.93854394733494
+            ],
+            [
+              795.1402589206984,
+              -38.888846545225384
+            ],
+            [
+              788.7141584442818,
+              -38.57455779867043
+            ]
+          ],
+          "clearance_center": [
+            797.3742932798891,
+            -54.30415607365261
+          ]
+        }
+      ],
+      "revision": 3,
+      "q2_attempted": false,
+      "q2_proposal": null
+    },
+    "15": {
+      "channel_id": 15,
+      "status": "CLEARED",
+      "bearing_observations": [
+        {
+          "position": [
+            0.0,
+            0.0
+          ],
+          "virtual_time_s": 89,
+          "real_timestamp_ms": 1789200252804,
+          "measurement_kind": "unknown",
+          "bearing_deg": 188.27
+        },
+        {
+          "position": [
+            -600.0000000000006,
+            -1039.2304845413262
+          ],
+          "virtual_time_s": 1623,
+          "real_timestamp_ms": 1789200253480,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 96.67
+        },
+        {
+          "position": [
+            -417.318407275759,
+            -860.2989578177846
+          ],
+          "virtual_time_s": 2314.097681,
+          "real_timestamp_ms": 1789200265327,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 111.23
+        },
+        {
+          "position": [
+            -490.5489319247098,
+            -437.0701995615264
+          ],
+          "virtual_time_s": 2405.001183,
+          "real_timestamp_ms": 1789200266049,
+          "measurement_kind": "active",
+          "bearing_deg": 122.2
+        }
+      ],
+      "no_signal_observations": [],
+      "near_signal_observations": [],
+      "outer_polygon": [
+        [
+          -701.6213619964606,
+          -114.51771710557806
+        ],
+        [
+          -692.6929552317474,
+          -113.06043428115615
+        ],
+        [
+          -701.3843031756211,
+          -89.47615587441946
+        ],
+        [
+          -716.7272697718403,
+          -91.43347038020984
+        ]
+      ],
+      "region_status": "POLYGON",
+      "diameter": 32.33224153975337,
+      "clearance_center": [
+        -704.7101125017939,
+        -102.246952330683
+      ],
+      "clearance_radius": 16.166120769876724,
+      "certificate_source": "all_history_box_mec",
+      "absent_reason": null,
+      "last_action": "clear",
+      "failure_count": 0,
+      "clear_failure_count": 0,
+      "failed_clear_attempts": [],
+      "invalidated_localization_rounds": [],
+      "recovery_reset_pending": false,
+      "no_progress_count": 0,
+      "replan_level": 0,
+      "progress_history": [
+        {
+          "result": "direction",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": 1823.8187136741246,
+          "radius_before": null,
+          "clearance_radius": 911.9093568370623,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 89,
+          "outer_polygon": [
+            [
+              -1800.0,
+              -229.62743797479544
+            ],
+            [
+              -1800.0,
+              -293.7936356491386
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "clearance_center": [
+            -900.0,
+            -146.8968178245693
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 1823.8187136741246,
+          "diameter": 41.895730558219206,
+          "radius_before": 911.9093568370623,
+          "clearance_radius": 20.948375776250405,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 1623,
+          "outer_polygon": [
+            [
+              -724.0402860964656,
+              -118.1769044492906
+            ],
+            [
+              -691.9660924002204,
+              -112.94179668454919
+            ],
+            [
+              -694.3845241941629,
+              -88.5831884778072
+            ],
+            [
+              -727.457533970187,
+              -92.80233875613153
+            ]
+          ],
+          "clearance_center": [
+            -709.3157083799316,
+            -103.27652664425676
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 41.895730558219206,
+          "diameter": 40.23638116384459,
+          "radius_before": 20.948375776250405,
+          "clearance_radius": 20.11819058192235,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 2314.097681,
+          "outer_polygon": [
+            [
+              -725.7181371737703,
+              -105.71812359473103
+            ],
+            [
+              -720.8396964719577,
+              -117.65450841484333
+            ],
+            [
+              -692.6929552317474,
+              -113.06043428115615
+            ],
+            [
+              -701.3843031756211,
+              -89.47615587441946
+            ],
+            [
+              -727.457533970187,
+              -92.80233875613153
+            ]
+          ],
+          "clearance_center": [
+            -710.0752446009672,
+            -102.93138651864385
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "active",
+          "diameter_before": 40.23638116384459,
+          "diameter": 32.33224153975337,
+          "radius_before": 20.11819058192235,
+          "clearance_radius": 16.166120769876724,
+          "status": "READY",
+          "improved": true,
+          "virtual_time_s": 2405.001183,
+          "outer_polygon": [
+            [
+              -701.6213619964606,
+              -114.51771710557806
+            ],
+            [
+              -692.6929552317474,
+              -113.06043428115615
+            ],
+            [
+              -701.3843031756211,
+              -89.47615587441946
+            ],
+            [
+              -716.7272697718403,
+              -91.43347038020984
+            ]
+          ],
+          "clearance_center": [
+            -704.7101125017939,
+            -102.246952330683
+          ]
+        }
+      ],
+      "revision": 4,
+      "q2_attempted": true,
+      "q2_proposal": null
+    },
+    "16": {
+      "channel_id": 16,
+      "status": "CLEARED",
+      "bearing_observations": [
+        {
+          "position": [
+            0.0,
+            0.0
+          ],
+          "virtual_time_s": 95,
+          "real_timestamp_ms": 1789200252821,
+          "measurement_kind": "unknown",
+          "bearing_deg": 249.6
+        },
+        {
+          "position": [
+            600.0000000000001,
+            -1039.2304845413264
+          ],
+          "virtual_time_s": 1899,
+          "real_timestamp_ms": 1789200253617,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 147.27
+        },
+        {
+          "position": [
+            -417.318407275759,
+            -860.2989578177846
+          ],
+          "virtual_time_s": 2308.097681,
+          "real_timestamp_ms": 1789200265297,
+          "measurement_kind": "active",
+          "bearing_deg": 56.44
+        }
+      ],
+      "no_signal_observations": [],
+      "near_signal_observations": [],
+      "outer_polygon": [
+        [
+          -209.76481693073916,
+          -535.2567254210123
+        ],
+        [
+          -210.79537447083456,
+          -537.8863983201217
+        ],
+        [
+          -199.88143993379484,
+          -544.6348785283632
+        ],
+        [
+          -183.3390615802593,
+          -520.6194836483672
+        ],
+        [
+          -182.08340413352755,
+          -517.0538510661881
+        ],
+        [
+          -193.34165981881148,
+          -509.53700820585794
+        ]
+      ],
+      "region_status": "POLYGON",
+      "diameter": 35.701949878511186,
+      "clearance_center": [
+        -196.61154987630317,
+        -527.0859433671105
+      ],
+      "clearance_radius": 17.85097493925562,
+      "certificate_source": "all_history_box_mec",
+      "absent_reason": null,
+      "last_action": "clear",
+      "failure_count": 0,
+      "clear_failure_count": 0,
+      "failed_clear_attempts": [],
+      "invalidated_localization_rounds": [],
+      "recovery_reset_pending": false,
+      "no_progress_count": 0,
+      "replan_level": 0,
+      "progress_history": [
+        {
+          "result": "direction",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": 1933.2890352362856,
+          "radius_before": null,
+          "clearance_radius": 966.6445176181428,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 95,
+          "outer_polygon": [
+            [
+              -705.412286372195,
+              -1800.0
+            ],
+            [
+              -633.8800625205946,
+              -1800.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "clearance_center": [
+            -352.7061431860975,
+            -900.0
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 1933.2890352362856,
+          "diameter": 42.86819827439742,
+          "radius_before": 966.6445176181428,
+          "clearance_radius": 21.43409913719874,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 1899,
+          "outer_polygon": [
+            [
+              -210.79537447083456,
+              -537.8863983201217
+            ],
+            [
+              -193.2419660896307,
+              -548.7403051898862
+            ],
+            [
+              -182.08340413352755,
+              -517.0538510661881
+            ],
+            [
+              -198.36973204257734,
+              -506.1798958917503
+            ]
+          ],
+          "clearance_center": [
+            -195.80584906610403,
+            -527.4601005408182
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "active",
+          "diameter_before": 42.86819827439742,
+          "diameter": 35.701949878511186,
+          "radius_before": 21.43409913719874,
+          "clearance_radius": 17.85097493925562,
+          "status": "READY",
+          "improved": true,
+          "virtual_time_s": 2308.097681,
+          "outer_polygon": [
+            [
+              -209.76481693073916,
+              -535.2567254210123
+            ],
+            [
+              -210.79537447083456,
+              -537.8863983201217
+            ],
+            [
+              -199.88143993379484,
+              -544.6348785283632
+            ],
+            [
+              -183.3390615802593,
+              -520.6194836483672
+            ],
+            [
+              -182.08340413352755,
+              -517.0538510661881
+            ],
+            [
+              -193.34165981881148,
+              -509.53700820585794
+            ]
+          ],
+          "clearance_center": [
+            -196.61154987630317,
+            -527.0859433671105
+          ]
+        }
+      ],
+      "revision": 3,
+      "q2_attempted": true,
+      "q2_proposal": null
+    },
+    "17": {
+      "channel_id": 17,
+      "status": "CLEARED",
+      "bearing_observations": [
+        {
+          "position": [
+            -600.0000000000006,
+            -1039.2304845413262
+          ],
+          "virtual_time_s": 1611,
+          "real_timestamp_ms": 1789200253430,
+          "measurement_kind": "unknown",
+          "bearing_deg": 324.59
+        },
+        {
+          "position": [
+            390.76252684868587,
+            -1204.515819108174
+          ],
+          "virtual_time_s": 1964.329002,
+          "real_timestamp_ms": 1789200263683,
+          "measurement_kind": "active",
+          "bearing_deg": 184.53
+        },
+        {
+          "position": [
+            50.289616659071704,
+            -1660.296710007168
+          ],
+          "virtual_time_s": 2101.110903,
+          "real_timestamp_ms": 1789200264434,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 130.01
+        },
+        {
+          "position": [
+            -64.5290301535976,
+            -1593.409021661404
+          ],
+          "virtual_time_s": 2132.687046,
+          "real_timestamp_ms": 1789200265233,
+          "measurement_kind": "active",
+          "bearing_deg": 124.02
+        }
+      ],
+      "no_signal_observations": [
+        {
+          "position": [
+            0.0,
+            0.0
+          ],
+          "virtual_time_s": 101,
+          "real_timestamp_ms": 1789200252840,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            1200.0,
+            0.0
+          ],
+          "virtual_time_s": 436,
+          "real_timestamp_ms": 1789200252982,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            600.0000000000001,
+            1039.2304845413264
+          ],
+          "virtual_time_s": 741,
+          "real_timestamp_ms": 1789200253086,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            -599.9999999999998,
+            1039.2304845413264
+          ],
+          "virtual_time_s": 1029,
+          "real_timestamp_ms": 1789200253239,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            -1200.0,
+            1.4695761589768238e-13
+          ],
+          "virtual_time_s": 1323,
+          "real_timestamp_ms": 1789200253353,
+          "measurement_kind": "unknown"
+        }
+      ],
+      "near_signal_observations": [],
+      "outer_polygon": [
+        [
+          -292.69263776283987,
+          -1265.8798118862408
+        ],
+        [
+          -286.9319333028828,
+          -1270.1285216515294
+        ],
+        [
+          -275.35853716213757,
+          -1269.0080140436771
+        ],
+        [
+          -284.0354590256871,
+          -1255.6569312873069
+        ],
+        [
+          -296.7776135492037,
+          -1246.928929028227
+        ],
+        [
+          -306.8805722492455,
+          -1247.5521623097263
+        ],
+        [
+          -299.62011760361065,
+          -1257.9134664693406
+        ]
+      ],
+      "region_status": "POLYGON",
+      "diameter": 38.131250565148584,
+      "clearance_center": [
+        -291.11955470569154,
+        -1258.2800881767016
+      ],
+      "clearance_radius": 19.065625282574356,
+      "certificate_source": "all_history_box_mec",
+      "absent_reason": null,
+      "last_action": "clear",
+      "failure_count": 0,
+      "clear_failure_count": 0,
+      "failed_clear_attempts": [],
+      "invalidated_localization_rounds": [],
+      "recovery_reset_pending": false,
+      "no_progress_count": 0,
+      "replan_level": 0,
+      "progress_history": [
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 101,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 436,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 741,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 1029,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 1323,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": 1346.2302267713706,
+          "radius_before": null,
+          "clearance_radius": 673.1151133856853,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 1611,
+          "outer_polygon": [
+            [
+              431.50570003795485,
+              -1800.0
+            ],
+            [
+              510.65996948736915,
+              -1800.0
+            ],
+            [
+              -599.999999999996,
+              -1039.2304845413294
+            ]
+          ],
+          "clearance_center": [
+            -44.670015256313434,
+            -1419.6152422706646
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "active",
+          "diameter_before": 1346.2302267713706,
+          "diameter": 54.604028111580256,
+          "radius_before": 673.1151133856853,
+          "clearance_radius": 27.302014055790128,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 1964.329002,
+          "outer_polygon": [
+            [
+              -286.9319333028828,
+              -1270.1285216515294
+            ],
+            [
+              -265.883278269635,
+              -1268.0906428981375
+            ],
+            [
+              -296.7776135492037,
+              -1246.928929028227
+            ],
+            [
+              -316.71962460747915,
+              -1248.1591156854774
+            ]
+          ],
+          "clearance_center": [
+            -291.3014514385571,
+            -1258.1248792918075
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 54.604028111580256,
+          "diameter": 46.076132078840104,
+          "radius_before": 27.302014055790128,
+          "clearance_radius": 23.038066039420077,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 2101.110903,
+          "outer_polygon": [
+            [
+              -292.69263776283987,
+              -1265.8798118862408
+            ],
+            [
+              -286.9319333028828,
+              -1270.1285216515294
+            ],
+            [
+              -267.3137594866644,
+              -1268.2291385537842
+            ],
+            [
+              -269.3489953121427,
+              -1265.7167283360036
+            ],
+            [
+              -296.7776135492037,
+              -1246.928929028227
+            ],
+            [
+              -308.5411574657196,
+              -1247.6546008135745
+            ]
+          ],
+          "clearance_center": [
+            -287.927458476192,
+            -1257.9418696836792
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "active",
+          "diameter_before": 46.076132078840104,
+          "diameter": 38.131250565148584,
+          "radius_before": 23.038066039420077,
+          "clearance_radius": 19.065625282574356,
+          "status": "READY",
+          "improved": true,
+          "virtual_time_s": 2132.687046,
+          "outer_polygon": [
+            [
+              -292.69263776283987,
+              -1265.8798118862408
+            ],
+            [
+              -286.9319333028828,
+              -1270.1285216515294
+            ],
+            [
+              -275.35853716213757,
+              -1269.0080140436771
+            ],
+            [
+              -284.0354590256871,
+              -1255.6569312873069
+            ],
+            [
+              -296.7776135492037,
+              -1246.928929028227
+            ],
+            [
+              -306.8805722492455,
+              -1247.5521623097263
+            ],
+            [
+              -299.62011760361065,
+              -1257.9134664693406
+            ]
+          ],
+          "clearance_center": [
+            -291.11955470569154,
+            -1258.2800881767016
+          ]
+        }
+      ],
+      "revision": 9,
+      "q2_attempted": true,
+      "q2_proposal": {
+        "point": [
+          390.76252684868587,
+          -1204.515819108174
+        ],
+        "score": 79.61980654111358,
+        "method": "original_q2_seed",
+        "planner_status": "SUCCESS_APPROXIMATE",
+        "receive_margin_m": -1.1368683772161603e-13
+      }
+    },
+    "18": {
+      "channel_id": 18,
+      "status": "ABSENT",
+      "bearing_observations": [],
+      "no_signal_observations": [
+        {
+          "position": [
+            0.0,
+            0.0
+          ],
+          "virtual_time_s": 107,
+          "real_timestamp_ms": 1789200252841,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            1200.0,
+            0.0
+          ],
+          "virtual_time_s": 442,
+          "real_timestamp_ms": 1789200252983,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            600.0000000000001,
+            1039.2304845413264
+          ],
+          "virtual_time_s": 687,
+          "real_timestamp_ms": 1789200252985,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            -599.9999999999998,
+            1039.2304845413264
+          ],
+          "virtual_time_s": 1035,
+          "real_timestamp_ms": 1789200253241,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            -1200.0,
+            1.4695761589768238e-13
+          ],
+          "virtual_time_s": 1329,
+          "real_timestamp_ms": 1789200253355,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            -600.0000000000006,
+            -1039.2304845413262
+          ],
+          "virtual_time_s": 1617,
+          "real_timestamp_ms": 1789200253437,
+          "measurement_kind": "unknown"
+        },
+        {
+          "position": [
+            600.0000000000001,
+            -1039.2304845413264
+          ],
+          "virtual_time_s": 1893,
+          "real_timestamp_ms": 1789200253559,
+          "measurement_kind": "unknown"
+        }
+      ],
+      "near_signal_observations": [],
+      "outer_polygon": [],
+      "region_status": null,
+      "diameter": null,
+      "clearance_center": null,
+      "clearance_radius": null,
+      "certificate_source": null,
+      "absent_reason": "seven_coverage_points_all_no_signal",
+      "last_action": "measure",
+      "failure_count": 0,
+      "clear_failure_count": 0,
+      "failed_clear_attempts": [],
+      "invalidated_localization_rounds": [],
+      "recovery_reset_pending": false,
+      "no_progress_count": 7,
+      "replan_level": 0,
+      "progress_history": [
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 107,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 442,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 687,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 1035,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 1329,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 1617,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 1893,
+          "outer_polygon": [],
+          "clearance_center": null
+        }
+      ],
+      "revision": 7,
+      "q2_attempted": false,
+      "q2_proposal": null
+    },
+    "19": {
+      "channel_id": 19,
+      "status": "CLEARED",
+      "bearing_observations": [
+        {
+          "position": [
+            0.0,
+            0.0
+          ],
+          "virtual_time_s": 113,
+          "real_timestamp_ms": 1789200252860,
+          "measurement_kind": "unknown",
+          "bearing_deg": 237.51
+        },
+        {
+          "position": [
+            -1200.0,
+            1.4695761589768238e-13
+          ],
+          "virtual_time_s": 1335,
+          "real_timestamp_ms": 1789200253369,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 335.4
+        },
+        {
+          "position": [
+            390.76252684868587,
+            -1204.515819108174
+          ],
+          "virtual_time_s": 1976.329002,
+          "real_timestamp_ms": 1789200263757,
+          "measurement_kind": "opportunistic",
+          "bearing_deg": 129.7
+        }
+      ],
+      "no_signal_observations": [],
+      "near_signal_observations": [],
+      "outer_polygon": [
+        [
+          -280.55651221618865,
+          -424.03543291377656
+        ],
+        [
+          -268.40288055177865,
+          -438.16533327876004
+        ],
+        [
+          -253.34496322673348,
+          -413.5834161635314
+        ],
+        [
+          -269.0898599913896,
+          -406.7046399059576
+        ]
+      ],
+      "region_status": "POLYGON",
+      "diameter": 31.468192961273505,
+      "clearance_center": [
+        -266.5664025503662,
+        -422.38738455810784
+      ],
+      "clearance_radius": 15.884467799747116,
+      "certificate_source": "all_history_box_mec",
+      "absent_reason": null,
+      "last_action": "clear",
+      "failure_count": 0,
+      "clear_failure_count": 0,
+      "failed_clear_attempts": [],
+      "invalidated_localization_rounds": [],
+      "recovery_reset_pending": false,
+      "no_progress_count": 0,
+      "replan_level": 0,
+      "progress_history": [
+        {
+          "result": "direction",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": 2158.3196000207304,
+          "radius_before": null,
+          "clearance_radius": 1079.1598000103652,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 113,
+          "outer_polygon": [
+            [
+              -1190.9422722506936,
+              -1800.0
+            ],
+            [
+              -1102.6093309984387,
+              -1800.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "clearance_center": [
+            -595.4711361253468,
+            -900.0
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 2158.3196000207304,
+          "diameter": 42.279638918992696,
+          "radius_before": 1079.1598000103652,
+          "clearance_radius": 21.139819459496362,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 1335,
+          "outer_polygon": [
+            [
+              -288.8397792008471,
+              -436.55483114137314
+            ],
+            [
+              -272.27727761602256,
+              -444.4902522864053
+            ],
+            [
+              -253.34496322673348,
+              -413.5834161635314
+            ],
+            [
+              -269.0898599913896,
+              -406.7046399059576
+            ]
+          ],
+          "clearance_center": [
+            -271.0923712137903,
+            -425.0691236524523
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "opportunistic",
+          "diameter_before": 42.279638918992696,
+          "diameter": 31.468192961273505,
+          "radius_before": 21.139819459496362,
+          "clearance_radius": 15.884467799747116,
+          "status": "READY",
+          "improved": true,
+          "virtual_time_s": 1976.329002,
+          "outer_polygon": [
+            [
+              -280.55651221618865,
+              -424.03543291377656
+            ],
+            [
+              -268.40288055177865,
+              -438.16533327876004
+            ],
+            [
+              -253.34496322673348,
+              -413.5834161635314
+            ],
+            [
+              -269.0898599913896,
+              -406.7046399059576
+            ]
+          ],
+          "clearance_center": [
+            -266.5664025503662,
+            -422.38738455810784
+          ]
+        }
+      ],
+      "revision": 3,
+      "q2_attempted": false,
+      "q2_proposal": null
+    },
+    "20": {
+      "channel_id": 20,
+      "status": "CLEARED",
+      "bearing_observations": [
+        {
+          "position": [
+            1200.0,
+            0.0
+          ],
+          "virtual_time_s": 364,
+          "real_timestamp_ms": 1789200252867,
+          "measurement_kind": "unknown",
+          "bearing_deg": 114.69
+        },
+        {
+          "position": [
+            328.81373280214274,
+            943.4725512374981
+          ],
+          "virtual_time_s": 3387.739499,
+          "real_timestamp_ms": 1789200270788,
+          "measurement_kind": "active",
+          "bearing_deg": 355.11
+        },
+        {
+          "position": [
+            416.5092156316802,
+            751.3751028941838
+          ],
+          "virtual_time_s": 3434.9731,
+          "real_timestamp_ms": 1789200271419,
+          "measurement_kind": "active",
+          "bearing_deg": 22.26
+        }
+      ],
+      "no_signal_observations": [
+        {
+          "position": [
+            0.0,
+            0.0
+          ],
+          "virtual_time_s": 119,
+          "real_timestamp_ms": 1789200252864,
+          "measurement_kind": "unknown"
+        }
+      ],
+      "near_signal_observations": [],
+      "outer_polygon": [
+        [
+          766.2343378036152,
+          901.7011839375923
+        ],
+        [
+          767.9322915861436,
+          898.1715201826864
+        ],
+        [
+          788.3791793602913,
+          896.0621465761691
+        ],
+        [
+          804.1503818116427,
+          902.1984008601032
+        ],
+        [
+          800.1016698998557,
+          911.425999535263
+        ],
+        [
+          790.394222110839,
+          912.0860848100597
+        ]
+      ],
+      "region_status": "POLYGON",
+      "diameter": 37.91930402692945,
+      "clearance_center": [
+        785.1923598076289,
+        901.9497923988478
+      ],
+      "clearance_radius": 18.959652013464726,
+      "certificate_source": "all_history_box_mec",
+      "absent_reason": null,
+      "last_action": "clear",
+      "failure_count": 0,
+      "clear_failure_count": 0,
+      "failed_clear_attempts": [],
+      "invalidated_localization_rounds": [],
+      "recovery_reset_pending": false,
+      "no_progress_count": 0,
+      "replan_level": 0,
+      "progress_history": [
+        {
+          "result": "no_signal",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": null,
+          "radius_before": null,
+          "clearance_radius": null,
+          "status": "UNKNOWN",
+          "improved": false,
+          "virtual_time_s": 119,
+          "outer_polygon": [],
+          "clearance_center": null
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "unknown",
+          "diameter_before": null,
+          "diameter": 1997.4417312582086,
+          "radius_before": null,
+          "clearance_radius": 998.7208656291043,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 364,
+          "outer_polygon": [
+            [
+              1199.9999999999984,
+              3.716189960425032e-12
+            ],
+            [
+              410.2299094525556,
+              1800.0
+            ],
+            [
+              334.10539338103894,
+              1800.0
+            ]
+          ],
+          "clearance_center": [
+            767.0526966905187,
+            900.0000000000018
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "active",
+          "diameter_before": 1997.4417312582086,
+          "diameter": 51.533579263360494,
+          "radius_before": 998.7208656291043,
+          "clearance_radius": 25.7667896316803,
+          "status": "FOUND",
+          "improved": true,
+          "virtual_time_s": 3387.739499,
+          "outer_polygon": [
+            [
+              767.9322915861436,
+              898.1715201826864
+            ],
+            [
+              807.7180914940476,
+              894.067075674216
+            ],
+            [
+              800.1016698998557,
+              911.425999535263
+            ],
+            [
+              760.2527099843921,
+              914.1356418869756
+            ]
+          ],
+          "clearance_center": [
+            783.9854007392198,
+            904.1013587805958
+          ]
+        },
+        {
+          "result": "direction",
+          "measurement_kind": "active",
+          "diameter_before": 51.533579263360494,
+          "diameter": 37.91930402692945,
+          "radius_before": 25.7667896316803,
+          "clearance_radius": 18.959652013464726,
+          "status": "READY",
+          "improved": true,
+          "virtual_time_s": 3434.9731,
+          "outer_polygon": [
+            [
+              766.2343378036152,
+              901.7011839375923
+            ],
+            [
+              767.9322915861436,
+              898.1715201826864
+            ],
+            [
+              788.3791793602913,
+              896.0621465761691
+            ],
+            [
+              804.1503818116427,
+              902.1984008601032
+            ],
+            [
+              800.1016698998557,
+              911.425999535263
+            ],
+            [
+              790.394222110839,
+              912.0860848100597
+            ]
+          ],
+          "clearance_center": [
+            785.1923598076289,
+            901.9497923988478
+          ]
+        }
+      ],
+      "revision": 4,
+      "q2_attempted": true,
+      "q2_proposal": {
+        "point": [
+          1408.6018464167075,
+          982.04158317632
+        ],
+        "score": 134.06587835747433,
+        "method": "original_q2_seed",
+        "planner_status": "SUCCESS_APPROXIMATE",
+        "receive_margin_m": 1.1368683772161603e-13
+      }
+    }
+  },
+  "q3_config": {
+    "rho": 1200.0,
+    "enable_insert": true,
+    "insert_threshold_s": 60.0,
+    "clear_margin_m": 0.01,
+    "max_opportunistic_measurements": 2,
+    "opportunistic_receive_m": 1100.0,
+    "repeated_point_m": 50.0,
+    "min_cross_angle_deg": 45.0,
+    "near_optimal_abs_m": 0.0,
+    "near_optimal_rel": 0.15,
+    "no_progress_trigger": 3,
+    "max_replans": 3,
+    "max_dynamic_replans": 6,
+    "max_candidate_expansion_level": 3,
+    "dynamic_replan_soft_budget_s": 300.0,
+    "dynamic_replan_near_clear_radius_m": 80.0,
+    "dynamic_replan_min_progress_rel": 0.02,
+    "dynamic_replan_global_reserve_s": 600.0,
+    "max_clear_failures_per_channel": 3,
+    "progress_abs_m": 0.01,
+    "progress_rel": 0.001,
+    "planning_timeout_s": 45.0,
+    "real_reserve_s": 10.0,
+    "source_samples": 24,
+    "candidate_count": 32,
+    "error_samples": 3
+  },
+  "planner_config": {
+    "target_radius_m": 1800.0,
+    "reception_radius_min_m": 1000.0,
+    "reception_radius_max_m": 1500.0,
+    "no_bearing_radius_m": 5.0,
+    "bearing_error_deg": 1.0,
+    "use_fast_geometry": true,
+    "verification_mode": "hybrid",
+    "verification_top_k": 6,
+    "verification_disagreement_tolerance_m": 1e-05,
+    "adversary_screen_sample_count": 24,
+    "adversary_stage_gap_tolerance_m": 0.05,
+    "point_sample_count": 128,
+    "point_start_count": 6,
+    "proxy_max_iterations": 50,
+    "exact_max_iterations": 18,
+    "point_initial_step_m": 160.0,
+    "point_tolerance_m": 1.0,
+    "source_sample_count": 64,
+    "source_start_count": 8,
+    "source_max_iterations": 35,
+    "source_parameter_tolerance": 0.0001,
+    "error_sample_count": 9,
+    "error_start_count": 4,
+    "error_max_iterations": 24,
+    "error_tolerance_deg": 0.001,
+    "max_scenario_rounds": 8,
+    "scenario_gap_tolerance_m": 0.2,
+    "scenario_merge_tolerance_m": 1e-05,
+    "scenario_error_merge_tolerance_deg": 1e-06,
+    "receive_tolerance_m": 1e-06,
+    "objective_improvement_tolerance_m": 1e-07,
+    "parallel_sine_tolerance": 1e-12
+  },
+  "geometry_config": {
+    "min_observations": 1,
+    "bearing_error_deg": 1.0,
+    "region_model": "bearing_halfplanes_only",
+    "lp_method": "highs",
+    "lp_presolve": 1,
+    "lp_primal_feasibility_tol": 1e-09,
+    "lp_dual_feasibility_tol": 1e-09,
+    "feasibility_abs_tol_m": 1e-06,
+    "feasibility_rel_tol": 1e-12,
+    "vertex_merge_abs_tol_m": 1e-07,
+    "vertex_merge_rel_tol": 1e-12,
+    "degeneracy_abs_tol_m": 1e-07,
+    "degeneracy_rel_tol": 1e-12,
+    "coverage_abs_tol_m": 1e-06,
+    "coverage_rel_tol": 1e-12,
+    "near_parallel_det_tol": 1e-10,
+    "decimal_precision": 60,
+    "sort_vertices_ccw": 1,
+    "return_diagnostics": 1,
+    "display_decimal_places": 8
+  },
+  "formal_log_note": "正式加密日志请在模拟器界面导出，并保留原文件名"
+}
